@@ -1,0 +1,8 @@
+model_name,ollama_tag,family,size_gb_q4,context_window,best_for
+Qwen3.5-4B,qwen3.5:4b,Qwen,2.4,262144,general
+Gemma4-E4B,gemma4:e4b-it-q4_K_M,Gemma,2.5,128000,general
+Gemma4-E2B,gemma4:e2b,Gemma,1.5,128000,speed
+Phi4-mini,phi4-mini,Phi,2.1,128000,reasoning
+Mistral-7B,mistral,Mistral,4.5,32000,french_letters
+Llama3.2-3B,llama3.2:3b,Llama,2.0,128000,general
+SmolLM3-3B,smollm3,HuggingFace,1.8,128000,lightweight

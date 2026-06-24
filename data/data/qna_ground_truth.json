@@ -1,0 +1,62 @@
+[
+  {
+    "id": "qna_001",
+    "context": "La direction de SSPP informe l'ensemble du personnel que la nouvelle politique de congés annuels entrera en vigueur à partir du 1er janvier 2027. Chaque employé bénéficiera de 30 jours de congé payé par an, contre 25 jours auparavant. Les demandes de congé doivent être soumises au moins 15 jours à l'avance via le portail RH interne. Les congés non pris ne pourront pas être reportés au-delà du 31 mars de l'année suivante.",
+    "query": "Combien de jours de congé annuel les employés auront-ils à partir de 2027 ?",
+    "ground_truth": "À partir de 2027, les employés de SSPP bénéficieront de 30 jours de congé payé par an."
+  },
+  {
+    "id": "qna_002",
+    "context": "La direction de SSPP informe l'ensemble du personnel que la nouvelle politique de congés annuels entrera en vigueur à partir du 1er janvier 2027. Chaque employé bénéficiera de 30 jours de congé payé par an, contre 25 jours auparavant. Les demandes de congé doivent être soumises au moins 15 jours à l'avance via le portail RH interne. Les congés non pris ne pourront pas être reportés au-delà du 31 mars de l'année suivante.",
+    "query": "Combien de jours à l'avance faut-il soumettre une demande de congé ?",
+    "ground_truth": "Les demandes de congé doivent être soumises au moins 15 jours à l'avance via le portail RH interne."
+  },
+  {
+    "id": "qna_003",
+    "context": "Le service maintenance de la subsidiaire GPG a procédé à l'inspection annuelle des équipements de sécurité incendie le 12 mai 2026. Sur les 45 extincteurs vérifiés, 3 ont été jugés non conformes et remplacés immédiatement. Le rapport complet a été transmis au responsable HSE le 15 mai 2026. La prochaine inspection est prévue pour mai 2027.",
+    "query": "Combien d'extincteurs étaient non conformes lors de l'inspection ?",
+    "ground_truth": "3 extincteurs sur 45 ont été jugés non conformes et ont été remplacés immédiatement."
+  },
+  {
+    "id": "qna_004",
+    "context": "Le service maintenance de la subsidiaire GPG a procédé à l'inspection annuelle des équipements de sécurité incendie le 12 mai 2026. Sur les 45 extincteurs vérifiés, 3 ont été jugés non conformes et remplacés immédiatement. Le rapport complet a été transmis au responsable HSE le 15 mai 2026. La prochaine inspection est prévue pour mai 2027.",
+    "query": "Quand est prévue la prochaine inspection ?",
+    "ground_truth": "La prochaine inspection est prévue pour mai 2027."
+  },
+  {
+    "id": "qna_005",
+    "context": "Suite à la réunion du comité de pilotage du 3 juin 2026, il a été décidé d'allouer un budget supplémentaire de 2,5 millions de dinars algériens pour la modernisation du système informatique de gestion des stocks. Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres. La livraison est prévue pour le quatrième trimestre 2026.",
+    "query": "Quel est le montant du budget alloué pour la modernisation du système informatique ?",
+    "ground_truth": "Un budget supplémentaire de 2,5 millions de dinars algériens a été alloué."
+  },
+  {
+    "id": "qna_006",
+    "context": "Suite à la réunion du comité de pilotage du 3 juin 2026, il a été décidé d'allouer un budget supplémentaire de 2,5 millions de dinars algériens pour la modernisation du système informatique de gestion des stocks. Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres. La livraison est prévue pour le quatrième trimestre 2026.",
+    "query": "Qui va mener le projet de modernisation ?",
+    "ground_truth": "Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres."
+  },
+  {
+    "id": "qna_007",
+    "context": "Conformément à la circulaire interne n°45/2026, tous les véhicules de service doivent passer un contrôle technique obligatoire avant le 30 septembre 2026. Les chefs de service sont responsables de planifier ces contrôles avec le garage partenaire agréé. Tout véhicule non contrôlé après cette date sera immobilisé jusqu'à régularisation.",
+    "query": "Quelle est la date limite pour le contrôle technique des véhicules ?",
+    "ground_truth": "La date limite est le 30 septembre 2026."
+  },
+  {
+    "id": "qna_008",
+    "context": "Conformément à la circulaire interne n°45/2026, tous les véhicules de service doivent passer un contrôle technique obligatoire avant le 30 septembre 2026. Les chefs de service sont responsables de planifier ces contrôles avec le garage partenaire agréé. Tout véhicule non contrôlé après cette date sera immobilisé jusqu'à régularisation.",
+    "query": "Que se passe-t-il si un véhicule n'est pas contrôlé à temps ?",
+    "ground_truth": "Tout véhicule non contrôlé après le 30 septembre 2026 sera immobilisé jusqu'à régularisation."
+  },
+  {
+    "id": "qna_009",
+    "context": "Le rapport trimestriel de production de la raffinerie indique une production totale de 1,2 million de barils au premier trimestre 2026, soit une augmentation de 8% par rapport au trimestre précédent. Cette amélioration est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.",
+    "query": "Quelle est la production totale au premier trimestre 2026 ?",
+    "ground_truth": "La production totale est de 1,2 million de barils, soit une augmentation de 8% par rapport au trimestre précédent."
+  },
+  {
+    "id": "qna_010",
+    "context": "Le rapport trimestriel de production de la raffinerie indique une production totale de 1,2 million de barils au premier trimestre 2026, soit une augmentation de 8% par rapport au trimestre précédent. Cette amélioration est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.",
+    "query": "À quoi est attribuée l'augmentation de production ?",
+    "ground_truth": "L'augmentation est attribuée à la mise en service de la nouvelle unité de distillation en février 2026."
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "letter_001",
+    "query": "Rédige une lettre administrative formelle de SSPP à la subsidiaire GPG pour demander un rapport mensuel sur la consommation d'énergie de leurs installations, à fournir avant le 10 de chaque mois.",
+    "ground_truth": "SSPP\nDirection Générale\nAin Benian, Alger\n\nLe 22 juin 2026\n\nÀ l'attention de Monsieur le Directeur de GPG\n\nObjet : Demande de rapport mensuel sur la consommation d'énergie\n\nMonsieur le Directeur,\n\nDans le cadre du suivi de la performance énergétique de nos installations, nous vous prions de bien vouloir nous transmettre, à compter du mois prochain, un rapport mensuel détaillant la consommation d'énergie de vos installations.\n\nCe rapport devra nous parvenir au plus tard le 10 de chaque mois, afin de permettre son intégration dans notre tableau de bord de suivi global.\n\nNous vous remercions par avance de votre collaboration et restons à votre disposition pour toute information complémentaire.\n\nVeuillez agréer, Monsieur le Directeur, l'expression de nos salutations distinguées.\n\nLa Direction Générale SSPP"
+  },
+  {
+    "id": "letter_002",
+    "query": "Rédige une lettre formelle pour informer un fournisseur que sa facture n°2026-0458 a été rejetée pour absence de bon de commande, en lui demandant de la corriger et de la renvoyer.",
+    "ground_truth": "SSPP\nService Comptabilité\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Rejet de facture n°2026-0458\n\nMadame, Monsieur,\n\nNous accusons réception de votre facture n°2026-0458. Après vérification, nous constatons que celle-ci ne comporte pas de bon de commande associé, condition indispensable à son traitement.\n\nNous vous prions de bien vouloir régulariser cette facture en y joignant le bon de commande correspondant, puis de nous la retourner dans les meilleurs délais.\n\nSans ce document, nous ne serons malheureusement pas en mesure de procéder au règlement.\n\nNous vous remercions de votre compréhension et restons à votre disposition pour tout complément d'information.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Comptabilité"
+  },
+  {
+    "id": "letter_003",
+    "query": "Rédige une lettre de convocation formelle pour un employé invité à un entretien d'évaluation annuelle prévu le 5 juillet 2026 à 10h dans le bureau du chef de service.",
+    "ground_truth": "SSPP\nDirection des Ressources Humaines\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Convocation à l'entretien d'évaluation annuelle\n\nMonsieur, Madame,\n\nDans le cadre du processus d'évaluation annuelle, nous vous prions de bien vouloir vous présenter à un entretien individuel le 5 juillet 2026 à 10h00, dans le bureau de votre chef de service.\n\nCet entretien sera l'occasion de faire le bilan de votre année écoulée et d'échanger sur vos objectifs pour la période à venir.\n\nNous vous remercions de confirmer votre disponibilité auprès du service RH.\n\nVeuillez agréer, Monsieur, Madame, l'expression de nos salutations distinguées.\n\nLa Direction des Ressources Humaines"
+  },
+  {
+    "id": "letter_004",
+    "query": "Rédige une lettre formelle accusant réception d'une réclamation client concernant un retard de livraison, en s'excusant et en proposant un geste commercial.",
+    "ground_truth": "SSPP\nService Relations Clients\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Accusé de réception de votre réclamation\n\nMadame, Monsieur,\n\nNous accusons réception de votre réclamation concernant le retard de livraison constaté sur votre dernière commande.\n\nNous tenons à vous présenter nos excuses pour la gêne occasionnée. Après vérification, ce retard est dû à des circonstances exceptionnelles que nous nous engageons à éviter à l'avenir.\n\nEn signe de bonne volonté, nous vous proposons une remise de 10% sur votre prochaine commande.\n\nNous restons à votre entière disposition pour toute question complémentaire.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Relations Clients"
+  },
+  {
+    "id": "letter_005",
+    "query": "Rédige une lettre formelle de demande d'autorisation de congé de 5 jours du 15 au 19 juillet 2026, adressée au chef de service.",
+    "ground_truth": "Ain Benian, le 22 juin 2026\n\nÀ l'attention de Monsieur le Chef de Service\n\nObjet : Demande de congé\n\nMonsieur,\n\nPar la présente, je sollicite votre autorisation pour bénéficier d'un congé annuel de 5 jours, du 15 au 19 juillet 2026 inclus.\n\nJe m'assurerai que mes dossiers en cours soient à jour avant mon départ et qu'un collègue puisse assurer la continuité de mes tâches durant mon absence.\n\nJe vous remercie de bien vouloir étudier favorablement ma demande.\n\nVeuillez agréer, Monsieur, l'expression de mes salutations distinguées."
+  }
+]

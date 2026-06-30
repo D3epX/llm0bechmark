@@ -102,6 +102,7 @@ def call_ollama(model_tag: str, prompt: str, system: str = None) -> dict:
         response = ollama.chat(
             model=model_tag,
             messages=messages,
+            think=False,
             options={"temperature": 0.3},#lower temperature means less randomness and more deterministic output, which is often desirable for benchmarking and evaluation purposes. It helps to reduce variability in the generated responses, making it easier to compare results across different runs or models.
         )
         elapsed = time.perf_counter() - start   # ← timer stops here

@@ -4,3 +4,4 @@ bert-score>=0.3.13
 pandas>=2.0.0
 matplotlib>=3.7.0
 torch>=2.0.0
+seaborn>=0.12.0

@@ -1,0 +1,106 @@
+{
+  "task": "letter",
+  "model": "gemma4:e4b-it-q4_K_M",
+  "ollama_tag": "gemma4:e4b-it-q4_K_M",
+  "timestamp": "2026-06-29 07:04:49",
+  "num_examples": 5,
+  "examples": [
+    {
+      "id": "letter_001",
+      "query": "Rédige une lettre administrative formelle de SSPP à la subsidiaire GPG pour demander un rapport mensuel sur la consommation d'énergie de leurs installations, à fournir avant le 10 de chaque mois.",
+      "ground_truth": "SSPP\nDirection Générale\nAin Benian, Alger\n\nLe 22 juin 2026\n\nÀ l'attention de Monsieur le Directeur de GPG\n\nObjet : Demande de rapport mensuel sur la consommation d'énergie\n\nMonsieur le Directeur,\n\nDans le cadre du suivi de la performance énergétique de nos installations, nous vous prions de bien vouloir nous transmettre, à compter du mois prochain, un rapport mensuel détaillant la consommation d'énergie de vos installations.\n\nCe rapport devra nous parvenir au plus tard le 10 de chaque mois, afin de permettre son intégration dans notre tableau de bord de suivi global.\n\nNous vous remercions par avance de votre collaboration et restons à votre disposition pour toute information complémentaire.\n\nVeuillez agréer, Monsieur le Directeur, l'expression de nos salutations distinguées.\n\nLa Direction Générale SSPP",
+      "generated": "**[En-tête de l'entreprise]**\n\n**SSPP**\nSubsidiaire SSPP / Sonatrach\n[Adresse complète de SSPP]\n[Ville, Code Postal]\n\n**[Date]**\nAlger, le [Jour] [Mois] [Année]\n\n**Objet : Demande de transmission régulière du rapport mensuel de consommation énergétique.**\n\n**À**\n**GPG**\n[Adresse complète de GPG]\n[Ville, Code Postal]\n\nMonsieur le Directeur,\n\nNous avons l'honneur de solliciter votre collaboration en vue d'assurer une meilleure centralisation et une analyse approfondie de la consommation énergétique globale de nos installations. Ce suivi est un impératif opérationnel pour l'optimisation de nos ressources et la planification stratégique de nos activités au sein du Groupe.\n\nÀ cet effet, nous vous prions de bien vouloir nous faire parvenir, de manière régulière, un rapport détaillé et exhaustif relatif à la consommation d'énergie de l'ensemble de vos installations. Ce rapport devra impérativement inclure, pour chaque site opérationnel, les données suivantes :\n\n1.  Le volume total de consommation énergétique (en unités mesurables : MWh, etc.).\n2.  La ventilation de cette consommation par type de source d'énergie (électricité, gaz, fuel, etc.).\n3.  La période couverte par les données.\n\nAfin de garantir la continuité de nos processus de reporting et de consolidation des données au niveau de la Direction, il est requis que ce rapport nous parvienne au plus tard le **10 de chaque mois civil**.\n\nNous vous remercions par avance de l'attention que vous porterez à cette requête et de la diligence avec laquelle vous veillerez au respect de cette échéance mensuelle.\n\nVeuillez agréer, Monsieur le Directeur, l'expression de notre parfaite considération et de notre entier dévouement.\n\n**[Signature]**\n\n**[Nom et Prénom du signataire]**\n**[Fonction du signataire – Ex : Directeur Administratif et Financier]**\n**SSPP**",
+      "time_seconds": 303.629,
+      "error": null,
+      "hallucination_score": 0.2,
+      "hallucinated_facts": [
+        "Invents a specific reporting structure (3 numbered data fields: total volume, breakdown by energy type, period covered) not requested in the instruction"
+      ],
+      "hallucination_explanation": "The core deadline and parties are correct, but the model fabricates a detailed reporting template (MWh units, energy type breakdown) that goes well beyond what was asked, presenting invented specifics as if they were requirements.",
+      "metrics": {
+        "rougeL_f1": 0.303,
+        "bertscore_precision": 0.6475,
+        "bertscore_recall": 0.7454,
+        "bertscore_f1": 0.693
+      }
+    },
+    {
+      "id": "letter_002",
+      "query": "Rédige une lettre formelle pour informer un fournisseur que sa facture n°2026-0458 a été rejetée pour absence de bon de commande, en lui demandant de la corriger et de la renvoyer.",
+      "ground_truth": "SSPP\nService Comptabilité\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Rejet de facture n°2026-0458\n\nMadame, Monsieur,\n\nNous accusons réception de votre facture n°2026-0458. Après vérification, nous constatons que celle-ci ne comporte pas de bon de commande associé, condition indispensable à son traitement.\n\nNous vous prions de bien vouloir régulariser cette facture en y joignant le bon de commande correspondant, puis de nous la retourner dans les meilleurs délais.\n\nSans ce document, nous ne serons malheureusement pas en mesure de procéder au règlement.\n\nNous vous remercions de votre compréhension et restons à votre disposition pour tout complément d'information.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Comptabilité",
+      "generated": "**[En-tête de l'entreprise]**\n\n**[Nom de la Subsidiaire SSPP / Sonatrach]**\n[Adresse complète de l'entreprise]\n[Téléphone] – [Email]\n[Numéro d'identification fiscale]\n\n**[Lieu], le 15 mai 2024**\n\n**[Nom du Fournisseur]**\n[Adresse complète du Fournisseur]\nÀ l'attention du Service Comptable\n\n**Objet : Rejet de la facture n° 2026-0458 – Demande de régularisation documentaire**\n\nMadame, Monsieur,\n\nNous faisons suite à la réception de votre facture référencée n° 2026-0458, relative à [Préciser la nature des biens/services, ex : la fourniture de matériel industriel].\n\nAprès vérification par nos services de contrôle interne, nous avons le regret de vous informer que ladite facture ne peut être traitée ni validée pour le paiement, en raison d'une non-conformité documentaire majeure.\n\nEn effet, il nous manque le bon de commande (Purchase Order) correspondant à cette transaction. Conformément à nos procédures d'achat et de contrôle de gestion, toute facture soumise à notre entité doit impérativement être accompagnée du bon de commande validé qui atteste de l'engagement contractuel préalable.\n\nPar conséquent, nous vous prions de bien vouloir procéder à la régularisation de votre dossier. Nous vous saurions gré de nous faire parvenir une version corrigée de la facture n° 2026-0458, accompagnée du bon de commande correspondant et dûment tamponné, afin que nous puissions procéder au traitement comptable et au règlement dans les meilleurs délais.\n\nNous vous remercions de votre diligence et de votre compréhension quant au respect de nos procédures administratives.\n\nDans l'attente de la réception des documents rectifiés, nous vous prions d'agréer, Madame, Monsieur, l'expression de notre parfaite considération et de nos salutations distinguées.\n\n**[Signature]**\n\n**[Nom et Prénom du Responsable Administratif]**\n**[Titre : Ex. Chef de Service Comptabilité Fournisseurs / Assistant Administratif Senior]**\n**[Nom de la Subsidiaire SSPP / Sonatrach]**",
+      "time_seconds": 315.065,
+      "error": null,
+      "hallucination_score": 0.5,
+      "hallucinated_facts": [
+        "Generates a specific concrete date '15 mai 2024' which is wrong on two counts: wrong year (2024 instead of 2026) and inconsistent with the rest of the document context (June 2026)",
+        "Invents internal procedural language ('non-conformité documentaire majeure', 'contrôle interne') not present in the instruction"
+      ],
+      "hallucination_explanation": "The fabricated date is a genuine factual error (wrong year, breaks internal consistency with the rest of the SSPP corpus which is set in 2026) — this is a meaningful hallucination, not a harmless placeholder.",
+      "metrics": {
+        "rougeL_f1": 0.3221,
+        "bertscore_precision": 0.6729,
+        "bertscore_recall": 0.7563,
+        "bertscore_f1": 0.7121
+      }
+    },
+    {
+      "id": "letter_003",
+      "query": "Rédige une lettre de convocation formelle pour un employé invité à un entretien d'évaluation annuelle prévu le 5 juillet 2026 à 10h dans le bureau du chef de service.",
+      "ground_truth": "SSPP\nDirection des Ressources Humaines\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Convocation à l'entretien d'évaluation annuelle\n\nMonsieur, Madame,\n\nDans le cadre du processus d'évaluation annuelle, nous vous prions de bien vouloir vous présenter à un entretien individuel le 5 juillet 2026 à 10h00, dans le bureau de votre chef de service.\n\nCet entretien sera l'occasion de faire le bilan de votre année écoulée et d'échanger sur vos objectifs pour la période à venir.\n\nNous vous remercions de confirmer votre disponibilité auprès du service RH.\n\nVeuillez agréer, Monsieur, Madame, l'expression de nos salutations distinguées.\n\nLa Direction des Ressources Humaines",
+      "generated": "**[EN-TÊTE DE L'ENTREPRISE]**\n\n**[Nom de la Société Pétrolière Algérienne]**\n*Subsidiary de SSPP / Sonatrach*\n[Adresse Complète de l'Entreprise]\n[Téléphone | E-mail]\n\n**[Ville], le [Date du jour de l'émission]**\n\n**Objet : Convocation à un entretien d'évaluation annuelle de performance**\n\nMadame/Monsieur [Nom et Prénom de l'Employé(e)],\n\nNous avons l'honneur de vous convoquer à un entretien d'évaluation annuelle de votre performance professionnelle. Cet entretien constitue un moment essentiel de dialogue visant à faire le bilan de vos réalisations au cours de la dernière période et à définir ensemble les objectifs de développement pour l'année à venir.\n\nCet entretien se tiendra :\n\n*   **Date :** Jeudi 5 juillet 2026\n*   **Heure :** 10h00\n*   **Lieu :** Bureau du Chef de Service\n\nNous vous prions de bien vouloir prendre connaissance de ce rendez-vous et de vous préparer en y apportant, si possible, un récapitulatif de vos principales contributions et de vos suggestions d'amélioration concernant votre poste.\n\nNous comptons sur votre présence et votre participation active à cet échange constructif.\n\nDans l'attente de vous recevoir, veuillez agréer, Madame/Monsieur, l'expression de notre parfaite considération et de nos salutations distinguées.\n\n**[Signature Manuscrite]**\n\n**[Nom et Prénom du Responsable des Ressources Humaines ou du Manager]**\n**[Titre du Signataire]**",
+      "time_seconds": 267.192,
+      "error": null,
+      "hallucination_score": 0.4,
+      "hallucinated_facts": [
+        "States 'Jeudi 5 juillet 2026' — 5 July 2026 is actually a Sunday, not a Thursday"
+      ],
+      "hallucination_explanation": "The date and time are otherwise correct, but the invented weekday label is factually wrong per the real calendar — a clear, checkable hallucination.",
+      "metrics": {
+        "rougeL_f1": 0.2779,
+        "bertscore_precision": 0.662,
+        "bertscore_recall": 0.7727,
+        "bertscore_f1": 0.7131
+      }
+    },
+    {
+      "id": "letter_004",
+      "query": "Rédige une lettre formelle accusant réception d'une réclamation client concernant un retard de livraison, en s'excusant et en proposant un geste commercial.",
+      "ground_truth": "SSPP\nService Relations Clients\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Accusé de réception de votre réclamation\n\nMadame, Monsieur,\n\nNous accusons réception de votre réclamation concernant le retard de livraison constaté sur votre dernière commande.\n\nNous tenons à vous présenter nos excuses pour la gêne occasionnée. Après vérification, ce retard est dû à des circonstances exceptionnelles que nous nous engageons à éviter à l'avenir.\n\nEn signe de bonne volonté, nous vous proposons une remise de 10% sur votre prochaine commande.\n\nNous restons à votre entière disposition pour toute question complémentaire.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Relations Clients",
+      "generated": "**[En-tête de l'Entreprise]**\n**[Nom de la Société Subsidiaire SSPP / Sonatrach]**\n[Adresse complète]\n[Téléphone | Email]\n\n**[Ville], le [Date du jour]**\n\n**Objet : Accusé de réception de votre réclamation relative au retard de livraison – Référence [Si applicable]**\n\nMadame, Monsieur,\n\nNous accusons réception de votre courrier/e-mail en date du [Date de la réclamation], par lequel vous nous faites part de votre mécontentement concernant le retard de livraison de votre commande [Numéro de commande ou de référence].\n\nNous tenons, avant toute chose, à vous présenter nos excuses les plus sincères pour le désagrément occasionné par ce manquement à nos engagements de délai. Soyez assuré(e) que nous prenons la pleine mesure de la gêne occasionnée par cette situation, laquelle ne reflète en rien le niveau de service que nous nous efforçons d'assurer à notre clientèle.\n\nSoyez assuré(e) que nous avons immédiatement transmis votre réclamation à nos services logistiques et opérationnels afin de procéder à une analyse approfondie des causes de ce retard. Des mesures correctives internes ont été mises en œuvre afin de garantir que de tels incidents ne se reproduisent plus à l'avenir. Nous vous confirmons par ailleurs que votre livraison est désormais planifiée pour le [Nouvelle date de livraison] et sera traitée avec la plus haute priorité.\n\nAfin de vous témoigner notre engagement à restaurer pleinement votre confiance et en guise de geste commercial, nous avons le plaisir de vous accorder [Décrire le geste commercial : ex. : une remise exceptionnelle de X% sur votre prochaine commande / un bon de réduction de Y DA / la livraison de X produit complémentaire]. Ce geste est un gage de notre volonté de maintenir une relation commerciale de confiance et pérenne avec votre établissement.\n\nDans l'attente de vous accueillir de nouveau dans la satisfaction totale, nous restons à votre entière disposition pour toute précision complémentaire.\n\nVeuillez agréer, Madame, Monsieur, l'expression de notre considération distinguée et de notre entière collaboration.\n\n**[Signature]**\n\n**[Nom et Prénom du Responsable]**\n**[Titre du Responsable (Ex : Directeur Commercial / Responsable Clientèle)]**",
+      "time_seconds": 307.468,
+      "error": null,
+      "hallucination_score": 0.3,
+      "hallucinated_facts": [
+        "States 'Des mesures correctives internes ont été mises en œuvre' as a completed fact, and claims a specific new delivery date is already confirmed — both presented as accomplished facts rather than placeholders"
+      ],
+      "hallucination_explanation": "Unlike the gesture commercial (left as a placeholder), this model asserts that corrective measures and a new delivery date already exist as settled facts, which is a fabrication of operational status not supported by the instruction.",
+      "metrics": {
+        "rougeL_f1": 0.321,
+        "bertscore_precision": 0.6638,
+        "bertscore_recall": 0.7517,
+        "bertscore_f1": 0.7051
+      }
+    },
+    {
+      "id": "letter_005",
+      "query": "Rédige une lettre formelle de demande d'autorisation de congé de 5 jours du 15 au 19 juillet 2026, adressée au chef de service.",
+      "ground_truth": "Ain Benian, le 22 juin 2026\n\nÀ l'attention de Monsieur le Chef de Service\n\nObjet : Demande de congé\n\nMonsieur,\n\nPar la présente, je sollicite votre autorisation pour bénéficier d'un congé annuel de 5 jours, du 15 au 19 juillet 2026 inclus.\n\nJe m'assurerai que mes dossiers en cours soient à jour avant mon départ et qu'un collègue puisse assurer la continuité de mes tâches durant mon absence.\n\nJe vous remercie de bien vouloir étudier favorablement ma demande.\n\nVeuillez agréer, Monsieur, l'expression de mes salutations distinguées.",
+      "generated": "**[En-tête de l'Entreprise]**\n**SSPP / Sonatrach**\n[Département/Direction]\n[Adresse de l'entreprise]\n\n**[Lieu], le [Date du jour]**\n\n**Objet : Demande d'autorisation de congé annuel**\n\n**À l'attention de**\nMonsieur/Madame le Chef de Service,\n\nMonsieur/Madame le Chef de Service,\n\nJ'ai l'honneur de solliciter par la présente votre bienveillante autorisation de m'accorder un congé annuel d'une durée de cinq (5) jours ouvrables.\n\nCe congé est requis pour la période allant du mardi 15 juillet 2026 au samedi 19 juillet 2026 inclus.\n\nJe tiens à vous assurer que, préalablement à cette période, je prendrai toutes les dispositions nécessaires afin d'achever mes dossiers en cours et d'organiser la passation de mes responsabilités auprès de mes collègues, garantissant ainsi la continuité du service et l'absence de perturbation dans le bon déroulement des activités du service.\n\nDans l'attente de votre approbation, je vous prie d'agréer, Monsieur/Madame le Chef de Service, l'expression de ma très haute considération et de mon profond respect.\n\n**[Signature]**\n\n**[Prénom et Nom de l'Employé]**\n**[Matricule de l'Employé]**",
+      "time_seconds": 243.724,
+      "error": null,
+      "hallucination_score": 0.4,
+      "hallucinated_facts": [
+        "States 'mardi 15 juillet 2026' — 15 July 2026 is actually a Wednesday, not a Tuesday",
+        "States 'samedi 19 juillet 2026' — 19 July 2026 is actually a Sunday, not a Saturday"
+      ],
+      "hallucination_explanation": "Both invented weekday labels are factually incorrect per the real calendar, a recurring hallucination pattern for this model across letter examples.",
+      "metrics": {
+        "rougeL_f1": 0.3379,
+        "bertscore_precision": 0.6899,
+        "bertscore_recall": 0.7789,
+        "bertscore_f1": 0.7317
+      }
+    }
+  ]
+}

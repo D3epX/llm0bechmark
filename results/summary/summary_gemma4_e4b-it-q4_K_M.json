@@ -1,0 +1,89 @@
+{
+  "task": "summary",
+  "model": "gemma4:e4b-it-q4_K_M",
+  "ollama_tag": "gemma4:e4b-it-q4_K_M",
+  "timestamp": "2026-06-29 07:24:11",
+  "num_examples": 5,
+  "examples": [
+    {
+      "id": "summary_001",
+      "ground_truth": "Lors de la réunion du comité de direction du 10 juin 2026, quatre points ont été abordés. Le bilan semestriel montre une croissance de 6% du chiffre d'affaires. Le budget de 2,5 millions de dinars pour la modernisation IT a été validé, avec démarrage en septembre. Sur 12 postes d'ingénieurs à pourvoir, 8 sont déjà comblés. De nouvelles procédures HSE conformes aux directives Sonatrach ont été approuvées, avec formation obligatoire en août 2026.",
+      "generated": "**Objet : Résumé du Procès-verbal du Comité de Direction du 10 juin 2026**\n\nLe comité de direction, réunissant les Directeurs Général, Financier, des Ressources Humaines et Technique, a tenu sa réunion le 10 juin 2026.\n\nLe Directeur Financier a présenté un bilan du premier semestre 2026 globalement positif, marqué par une croissance de 6 % du chiffre d'affaires.\n\nLes principales décisions prises sont les suivantes :\n\n1. **Modernisation IT :** Le budget de 2,5 millions de dinars a été validé à l'unanimité, avec un démarrage des travaux prévu en septembre 2026.\n2. **Recrutement :** Sur les 12 ingénieurs à recruter, 8 postes sont pourvus. Les 4 postes restants doivent impérativement être finalisés avant la fin du mois de juillet.\n3. **Normes HSE :** Le comité a approuvé la mise en place de nouvelles procédures HSE, conformes aux directives de Sonatrach. Une formation obligatoire pour l'ensemble du personnel est planifiée pour août 2026.",
+      "time_seconds": 235.821,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All names, figures, and dates accurately traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.4498,
+        "bertscore_precision": 0.742,
+        "bertscore_recall": 0.8417,
+        "bertscore_f1": 0.7887
+      }
+    },
+    {
+      "id": "summary_002",
+      "ground_truth": "Une fuite mineure de gaz a été détectée le 18 mai 2026 à 14h30 au niveau de la vanne V-204. La procédure d'urgence a été déclenchée sans faire de blessé. La cause identifiée est l'usure d'un joint d'étanchéité, remplacé le jour même. Le système a été remis en service à 18h00 après vérification, et un rapport détaillé sera transmis à la direction HSE sous 48 heures.",
+      "generated": "**Objet : Résumé de l'incident de sécurité du 18 mai 2026**\n\nLe 18 mai 2026, une fuite mineure de gaz a été détectée à 14h30 sur le site de production, au niveau de la vanne V-204.\n\nLa procédure d'urgence a été immédiatement déclenchée, entraînant l'évacuation de la zone et la fermeture de la vanne. Aucune victime n'est à déplorer.\n\nL'enquête préliminaire a établi que la cause était l'usure d'un joint d'étanchéité. Ce joint a été remplacé le jour même, et le système a été remis en service après vérification complète à 18h00.\n\nUn rapport détaillé de l'incident sera transmis à la direction HSE dans les 48 heures.",
+      "time_seconds": 200.8,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.6351,
+        "bertscore_precision": 0.8285,
+        "bertscore_recall": 0.8969,
+        "bertscore_f1": 0.8614
+      }
+    },
+    {
+      "id": "summary_003",
+      "ground_truth": "Le service logistique sera réorganisé à partir du 1er août 2026 en trois pôles : approvisionnement (M. Benali), stockage (Mme Cherif), et distribution (M. Khelifi), chacun avec son propre budget. L'objectif est de réduire les délais de traitement des commandes de 30%. Une réunion d'information est prévue le 15 juillet 2026.",
+      "generated": "Une réorganisation du service logistique prendra effet le **1er août 2026**. La nouvelle structure sera composée de trois pôles autonomes, chacun ayant son propre budget et rendant compte au Directeur Logistique :\n1. Le pôle approvisionnement (dirigé par **M. Benali**).\n2. Le pôle stockage (dirigé par **Mme Cherif**).\n3. Le pôle distribution (dirigé par **M. Khelifi**).\n\nCette réorganisation vise à améliorer la traçabilité des flux et à réduire les délais de traitement des commandes internes de **30%**. Une réunion d'information est prévue le **15 juillet 2026** pour présenter les nouvelles procédures au personnel concerné.",
+      "time_seconds": 178.936,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All names, dates, and figures correctly traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.494,
+        "bertscore_precision": 0.7658,
+        "bertscore_recall": 0.863,
+        "bertscore_f1": 0.8115
+      }
+    },
+    {
+      "id": "summary_004",
+      "ground_truth": "L'audit externe ISO du 2 au 4 juin 2026 a relevé deux non-conformités mineures concernant la traçabilité des déchets dangereux et le registre des risques, sans non-conformité majeure. Le cabinet recommande une mise à jour du registre avant fin juillet et une formation du personnel. La certification ISO 9001/14001/45001 a été reconduite pour trois ans.",
+      "generated": "Un audit externe sur les systèmes QSE a eu lieu du 2 au 4 juin 2026. Bien qu'aucune non-conformité majeure n'ait été relevée, deux non-conformités mineures ont été identifiées (traçabilité des déchets dangereux et registre des risques non mis à jour). Le cabinet a recommandé la mise à jour du registre des risques avant fin juillet 2026 et la formation du personnel. Malgré ces points, la certification ISO 9001/14001/45001 a été reconduite pour trois ans.",
+      "time_seconds": 186.168,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.6939,
+        "bertscore_precision": 0.8603,
+        "bertscore_recall": 0.9125,
+        "bertscore_f1": 0.8856
+      }
+    },
+    {
+      "id": "summary_005",
+      "ground_truth": "En 2025, 245 employés (78% de l'effectif) ont suivi au moins une formation, principalement en sécurité industrielle, compétences techniques et management. Le budget formation a atteint 18 millions de dinars, en hausse de 12%. Pour 2026, la direction prévoit d'élargir l'offre aux compétences numériques via un partenariat en intelligence artificielle.",
+      "generated": "Voici un résumé concis et fidèle du bilan :\n\nPour 2025, 245 employés (78% de l'effectif) ont bénéficié de formations, avec un budget de 18 millions de dinars (hausse de 12% par rapport à 2024). Les domaines privilégiés étaient la sécurité industrielle (89 participants), les compétences techniques (67) et le management (45). Pour 2026, la direction prévoit d'élargir l'offre aux compétences numériques, en envisageant un partenariat avec un organisme spécialisé en intelligence artificielle.",
+      "time_seconds": 179.456,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All figures correctly traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.5205,
+        "bertscore_precision": 0.7861,
+        "bertscore_recall": 0.8601,
+        "bertscore_f1": 0.8215
+      }
+    }
+  ]
+}

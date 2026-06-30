@@ -1,0 +1,102 @@
+{
+  "task": "letter",
+  "model": "phi4-mini",
+  "ollama_tag": "phi4-mini",
+  "timestamp": "2026-06-29 08:10:47",
+  "num_examples": 5,
+  "examples": [
+    {
+      "id": "letter_001",
+      "query": "Rédige une lettre administrative formelle de SSPP à la subsidiaire GPG pour demander un rapport mensuel sur la consommation d'énergie de leurs installations, à fournir avant le 10 de chaque mois.",
+      "ground_truth": "SSPP\nDirection Générale\nAin Benian, Alger\n\nLe 22 juin 2026\n\nÀ l'attention de Monsieur le Directeur de GPG\n\nObjet : Demande de rapport mensuel sur la consommation d'énergie\n\nMonsieur le Directeur,\n\nDans le cadre du suivi de la performance énergétique de nos installations, nous vous prions de bien vouloir nous transmettre, à compter du mois prochain, un rapport mensuel détaillant la consommation d'énergie de vos installations.\n\nCe rapport devra nous parvenir au plus tard le 10 de chaque mois, afin de permettre son intégration dans notre tableau de bord de suivi global.\n\nNous vous remercions par avance de votre collaboration et restons à votre disposition pour toute information complémentaire.\n\nVeuillez agréer, Monsieur le Directeur, l'expression de nos salutations distinguées.\n\nLa Direction Générale SSPP",
+      "generated": "[Logo du SSPP]\n\nDate: [insérer la date actuelle]\n\nObjet : Demande de Rapport Mensuel sur Consommation d'Énergie\n\nMonsieur/Madame,\n\nAu nom du Service des Produits Pétroliers (SPPP) Sonatrach, nous vous adressons cette lettre pour formaliser notre demande concernant le rapport mensuel détaillant l'utilisation énergétique au sein de vos installations.\n\nNous tenons à préciser que ces rapports doivent être soumis avant le 10 de chaque mois afin d'assurer une gestion efficace et précise des données énergétiques. Nous estimons qu'une telle régularité contribuera grandement à la transparence et à la coopération entre nos deux entités.\n\nVeuillez bien considérer notre demande avec l'urgence requise, en veillant à ce que les rapports soient complets et précis pour chaque mois concerné.\n\nNous vous remercions de votre compréhension et nous attendons vos informations pertinentes concernant le calcul des consommations d'énergie au sein de vos installations. N'hésitez pas à contacter directement mon équipe si besoin se fait pour toute clarification ou assistance supplémentaire.\n\nCordialement,\n\n[Votre Nom Complet]\n\nService des Produits Pétroliers (SPPP)\n\nSonatrach\n\nAdresse : [Insérer l'adresse du SSPP]\n\nTéléphone : [insérer le numéro de téléphone]\nEmail: [insérer un email]",
+      "time_seconds": 67.201,
+      "error": null,
+      "hallucination_score": 0.3,
+      "hallucinated_facts": [
+        "Renders the company acronym incorrectly as 'Service des Produits Pétroliers (SPPP)' instead of SSPP — a name distortion, not just an abbreviation choice"
+      ],
+      "hallucination_explanation": "Deadline (10 de chaque mois) correctly preserved, addresses left as honest placeholders. However, consistently mislabels the company as SPPP instead of SSPP throughout the letter, which is a factual identity error, not a stylistic choice.",
+      "metrics": {
+        "rougeL_f1": 0.2346,
+        "bertscore_precision": 0.6945,
+        "bertscore_recall": 0.7523,
+        "bertscore_f1": 0.7222
+      }
+    },
+    {
+      "id": "letter_002",
+      "query": "Rédige une lettre formelle pour informer un fournisseur que sa facture n°2026-0458 a été rejetée pour absence de bon de commande, en lui demandant de la corriger et de la renvoyer.",
+      "ground_truth": "SSPP\nService Comptabilité\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Rejet de facture n°2026-0458\n\nMadame, Monsieur,\n\nNous accusons réception de votre facture n°2026-0458. Après vérification, nous constatons que celle-ci ne comporte pas de bon de commande associé, condition indispensable à son traitement.\n\nNous vous prions de bien vouloir régulariser cette facture en y joignant le bon de commande correspondant, puis de nous la retourner dans les meilleurs délais.\n\nSans ce document, nous ne serons malheureusement pas en mesure de procéder au règlement.\n\nNous vous remercions de votre compréhension et restons à votre disposition pour tout complément d'information.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Comptabilité",
+      "generated": "[Votre Nom Complet]\n[Titre Professionnel ou Fonction]\nSonatrach\nAdresse du Bureau Principal\n\nDate: [Insérez la Date Actuelle]\n\nObjet : Rejet de Facture n°2026-0458 - Absence de Bon de Commande\n\nMonsieur/Madame,\n\nNous vous prions d'agréer l'expression de notre considération pour le courriel suivant.\n\nIl nous est parvenu, suite à une vérification rigoureuse des documents soumis en date du [insérez la Date], que votre facture n°2026-0458 a été rejetée. Le refus résulte principalement de l'absence d'un bon de commande requis conformément aux conditions générales de notre accord commercial.\n\nNous vous demandons respectueusement de corriger cette omission et de nous envoyer le bon de commande en question, afin qu'une nouvelle évaluation puisse être effectuée sans délai supplémentaire.\n\nVeuillez noter que la non-réception du bon de commande dans les délais prévus pourrait entraîner des complications supplémentaires ou des pénalités selon nos termes d'accord. Nous vous assurons que cette situation est une exception et nous sommes confiants quant à votre capacité à répondre promptement pour éviter tout désagrément futur.\n\nNous attendons avec impatience la réception du bon de commande requis afin de pouvoir procéder au traitement approprié de votre facture n°2026-0458.\n\nDans l'attente d'une réponse rapide, veuillez agréer, Monsieur/Madame, l'expression de nos salutations distinguées.\n\n[Signature Physique (si envoyé par courrier) ou Nom Complet]\n\nCordialement,\n\n[Titre Professionnel ou Fonction]\nSonatrach\n\n---\n\nDate: [Insérez la Date Actuelle]",
+      "time_seconds": 74.428,
+      "error": null,
+      "hallucination_score": 0.3,
+      "hallucinated_facts": [
+        "Invents a threat of 'pénalités selon nos termes d'accord' — references a penalty clause from an agreement that was never mentioned in the instruction"
+      ],
+      "hallucination_explanation": "Invoice number correctly preserved. However, the model fabricates a contractual penalty threat not present in the instruction, which could mislead the supplier about actual contractual consequences — a meaningful operational hallucination for a business letter.",
+      "metrics": {
+        "rougeL_f1": 0.2687,
+        "bertscore_precision": 0.6732,
+        "bertscore_recall": 0.7257,
+        "bertscore_f1": 0.6985
+      }
+    },
+    {
+      "id": "letter_003",
+      "query": "Rédige une lettre de convocation formelle pour un employé invité à un entretien d'évaluation annuelle prévu le 5 juillet 2026 à 10h dans le bureau du chef de service.",
+      "ground_truth": "SSPP\nDirection des Ressources Humaines\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Convocation à l'entretien d'évaluation annuelle\n\nMonsieur, Madame,\n\nDans le cadre du processus d'évaluation annuelle, nous vous prions de bien vouloir vous présenter à un entretien individuel le 5 juillet 2026 à 10h00, dans le bureau de votre chef de service.\n\nCet entretien sera l'occasion de faire le bilan de votre année écoulée et d'échanger sur vos objectifs pour la période à venir.\n\nNous vous remercions de confirmer votre disponibilité auprès du service RH.\n\nVeuillez agréer, Monsieur, Madame, l'expression de nos salutations distinguées.\n\nLa Direction des Ressources Humaines",
+      "generated": "[Votre Nom Complet]\n[Titre Professionnel]\n[Société Pétrolière Algérienne (Subsidiaire SSPP / Sonatrach)]\n[Adresse de l'Entreprise]\n[Code Postal et Ville]\n\nDate: [Insérer la Date Actuelle]\n\nObjet : Convocation à un entretien d'évaluation annuelle\n\nMonsieur/Madame [Nom du Destinataire],\n\nEn vertu des dispositions pertinentes, vous êtes invité(e) à participer à une réunion d'évaluation annuelle de votre emploi. Ce rendez-vous est prévu pour le 5 juillet 2026 à 10h00 dans le bureau du chef de service.\n\nL'objectif principal de cette rencontre est de discuter de vos performances au cours de l'année écoulée, ainsi que des perspectives et objectifs futurs liés à votre poste actuel.\n\nVeuillez vous assurer d'être présent(e) en temps voulu pour permettre une évaluation complète. Si vous avez besoin de plus amples informations ou si vous rencontrez des difficultés concernant la date ou le lieu du rendez-vous, veuillez nous contacter sans tarder afin que nous puissions apporter les ajustements nécessaires.\n\nNous apprécions grandement votre engagement continu et sommes convaincus qu'une telle réunion contribuera à renforcer notre collaboration fructueuse. Nous espérons avoir l'opportunité de vous revoir personnellement pour discuter des aspects pertinents concernant vos responsabilités professionnelles.\n\nDans le cadre d'un échange professionnel, nous vous remercions par avance du plaisir que vous porterez au sein de cette entreprise.\n\nVeuillez agréer, Monsieur/Madame [Nom du Destinataire], l'expression de nos salutations distinguées.\n\n[Signature (si envoyé en format papier)]\n[Votre Nom Complet]\n[Titre Professionnel]\n\n---\n\nSi le destinataire n'est pas un employé mais une personne externe ou interne à Sonatrach ayant des responsabilités liées au processus d'évaluation, la lettre serait modifiée pour inclure son nom et sa position.",
+      "time_seconds": 83.051,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Date, time, and location correctly preserved (5 juillet 2026, 10h00, bureau du chef de service). No invented specific facts. Includes an odd meta-comment at the end about external recipients which is unusual but not a factual hallucination.",
+      "metrics": {
+        "rougeL_f1": 0.275,
+        "bertscore_precision": 0.6567,
+        "bertscore_recall": 0.7555,
+        "bertscore_f1": 0.7026
+      }
+    },
+    {
+      "id": "letter_004",
+      "query": "Rédige une lettre formelle accusant réception d'une réclamation client concernant un retard de livraison, en s'excusant et en proposant un geste commercial.",
+      "ground_truth": "SSPP\nService Relations Clients\nAin Benian, Alger\n\nLe 22 juin 2026\n\nObjet : Accusé de réception de votre réclamation\n\nMadame, Monsieur,\n\nNous accusons réception de votre réclamation concernant le retard de livraison constaté sur votre dernière commande.\n\nNous tenons à vous présenter nos excuses pour la gêne occasionnée. Après vérification, ce retard est dû à des circonstances exceptionnelles que nous nous engageons à éviter à l'avenir.\n\nEn signe de bonne volonté, nous vous proposons une remise de 10% sur votre prochaine commande.\n\nNous restons à votre entière disposition pour toute question complémentaire.\n\nVeuillez agréer, Madame, Monsieur, l'expression de nos salutations distinguées.\n\nLe Service Relations Clients",
+      "generated": "[Nom du Client]\n[Adresse du Client]\n\nDate: [date actuelle]\n\nObjet : Réponse à votre réclamation n° [numéro de la réclamation] - Retard de Livraison\n\nMonsieur/Madame,\n\nNous vous remercions pour le courrier que nous avons reçu concernant l'achat effectué sous le numéro d'identification suivant, dont le retard de livraison est regretté.\n\nSuite au contenu de votre lettre, notre équipe administrative a procédé à une vérification approfondie des dossiers relatifs à votre commande. Nous regrettons sincèrement les désagréments causés par ce délai inattendu et nous vous assurons que cette situation n'est pas représentative du service normal offert par Sonatrach.\n\nDans le cadre d'une démarche visant à rétablir la confiance de notre client, nous souhaitons offrir une réduction sur votre prochaine commande. Cette remise sera applicable jusqu'à [date limite pour l'application de la remise].\n\nNous restons convaincus que nos excuses et cette offre commerciale constituent un geste sincère envers vous en guise de compensation.\n\nVeuillez agréer, Monsieur/Madame, l'expression de notre considération distinguée.\n\nCordialement,\n\n[Nom du Client]\n\nSignature\n\n[Prénom Nom]\n[Titre Professionnel]\nSonatrach\n[Adresse Email]",
+      "time_seconds": 54.4,
+      "error": null,
+      "hallucination_score": 0.1,
+      "hallucinated_facts": [
+        "States 'notre équipe administrative a procédé à une vérification approfondie' as completed fact rather than placeholder"
+      ],
+      "hallucination_explanation": "Discount amount appropriately left open-ended ('une réduction', expiry as placeholder). Minor hallucination: asserts a completed internal investigation as fact rather than framing it generically. Notably places '[Nom du Client]' in the signature block, a structural/logical error (signing as the client) rather than a factual hallucination.",
+      "metrics": {
+        "rougeL_f1": 0.2581,
+        "bertscore_precision": 0.704,
+        "bertscore_recall": 0.7566,
+        "bertscore_f1": 0.7293
+      }
+    },
+    {
+      "id": "letter_005",
+      "query": "Rédige une lettre formelle de demande d'autorisation de congé de 5 jours du 15 au 19 juillet 2026, adressée au chef de service.",
+      "ground_truth": "Ain Benian, le 22 juin 2026\n\nÀ l'attention de Monsieur le Chef de Service\n\nObjet : Demande de congé\n\nMonsieur,\n\nPar la présente, je sollicite votre autorisation pour bénéficier d'un congé annuel de 5 jours, du 15 au 19 juillet 2026 inclus.\n\nJe m'assurerai que mes dossiers en cours soient à jour avant mon départ et qu'un collègue puisse assurer la continuité de mes tâches durant mon absence.\n\nJe vous remercie de bien vouloir étudier favorablement ma demande.\n\nVeuillez agréer, Monsieur, l'expression de mes salutations distinguées.",
+      "generated": "[Votre Nom Complet]\n[Titre Professionnel ou Poste]\n[Nom de l'Entreprise Pétrolière Algérienne (subsidiaire SSPP / Sonatrach)]\n[Adresse de l'Entreprise]\n\nDate: [insérer la date actuelle]\n\nObjet : Demande d'autorisation de congé pour le 15 au 19 juillet 2026\n\nMonsieur/Madame, Chef du Service,\n\nAu nom de notre entreprise pétrolière algérienne (subsidiaire SSPP / Sonatrach), je vous adresse cette lettre afin de solliciter votre autorité pour un congé d'une durée totale de cinq jours, précisément du 15 au 19 juillet 2026.\n\nDurant ce laps de temps, j'ai l'intention de me consacrer à des activités personnelles importantes qui nécessitent ma présence. J'ai pris soin de planifier cette période hors service afin qu'elle ne perturbe pas nos opérations habituelles ou les responsabilités actuelles du département auquel vous appartenez.\n\nJe tiens à exprimer mon profond respect et ma gratitude pour l'attention que vous porterez à ma demande, ainsi que votre compréhension quant aux circonstances qui m'ont poussé à solliciter ce congé. Je suis convaincu qu'une autorisation de cette nature sera accordée avec la plus grande bienveillance.\n\nDans le cas où des précisions supplémentaires seraient nécessaires ou si une discussion est requise pour confirmer les details mentionnés ci-dessus, je vous prie d'informer Mlle/Monsieur [Nom du Responsable], responsable direct de votre département. Je reste à votre entière disposition et suis disponible au téléphone suivant : [Votre numéro de téléphone].\n\nJe vous remercie par avance pour l'attention portée à ma demande.\n\nVeuillez agréer, Monsieur/Madame, la considération distinguée de monTEUR/MEISRETRIEU(S).\n\n[Signature (si envoyé en format papier)]\n[Titre Professionnel ou Poste]\n\n[Ceci est une copie]",
+      "time_seconds": 84.084,
+      "error": null,
+      "hallucination_score": 0.2,
+      "hallucinated_facts": [
+        "Introduces a fictional secondary contact 'Mlle/Monsieur [Nom du Responsable], responsable direct de votre département' not requested or implied by the instruction"
+      ],
+      "hallucination_explanation": "Dates correctly preserved (15-19 juillet 2026). Adds an unrequested secondary responsible party as a placeholder. Notable quality failure: ends with a garbled, nonsensical closing phrase ('monTEUR/MEISRETRIEU(S)') which is a generation artifact/corruption rather than a factual hallucination, but severely impacts usability.",
+      "metrics": {
+        "rougeL_f1": 0.1934,
+        "bertscore_precision": 0.6424,
+        "bertscore_recall": 0.7403,
+        "bertscore_f1": 0.6879
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+task,model,example_id,time_seconds,rougeL_f1,bertscore_precision,bertscore_recall,bertscore_f1,hallucination_score,error,generated_preview
+letter,gemma4:e2b,letter_001,102.102,0.4067,0.7343,0.7853,0.7589,0.0,,"[En-tête de SSPP] [Adresse de SSPP] [Ville, Code Postal] [Téléphone] [Email]  [Lieu], le [Date]  À [Nom de la société GP"
+letter,gemma4:e2b,letter_002,100.52,0.3974,0.723,0.7814,0.7511,0.0,,[Nom de l'Entreprise/Service émetteur] [Adresse de l'Entreprise] [Code Postal et Ville] [Téléphone] [Email]  [Nom du Fou
+letter,gemma4:e2b,letter_003,89.985,0.392,0.7285,0.7866,0.7564,0.0,,"[Nom de l'Entreprise/Direction] [Service émetteur] [Adresse de l'Entreprise]  [Lieu], le [Date du jour]  **Objet : Convo"
+letter,gemma4:e2b,letter_004,118.256,0.3671,0.6727,0.7822,0.7233,0.1,,[Nom de l'entreprise/Service émetteur] [Adresse complète] [Code Postal et Ville] [Téléphone] [Email]  [Nom du Destinatai
+letter,gemma4:e2b,letter_005,86.888,0.3814,0.7128,0.7592,0.7353,0.4,,"[Nom et Prénom de l'employé] [Matricule/Fonction] [Service]  [Lieu], le [Date du jour]  À Monsieur le Chef de Service [N"
+letter,gemma4:e4b-it-q4_K_M,letter_001,303.629,0.303,0.6475,0.7454,0.693,0.2,,"**[En-tête de l'entreprise]**  **SSPP** Subsidiaire SSPP / Sonatrach [Adresse complète de SSPP] [Ville, Code Postal]  **"
+letter,gemma4:e4b-it-q4_K_M,letter_002,315.065,0.3221,0.6729,0.7563,0.7121,0.5,,**[En-tête de l'entreprise]**  **[Nom de la Subsidiaire SSPP / Sonatrach]** [Adresse complète de l'entreprise] [Téléphon
+letter,gemma4:e4b-it-q4_K_M,letter_003,267.192,0.2779,0.662,0.7727,0.7131,0.4,,**[EN-TÊTE DE L'ENTREPRISE]**  **[Nom de la Société Pétrolière Algérienne]** *Subsidiary de SSPP / Sonatrach* [Adresse C
+letter,gemma4:e4b-it-q4_K_M,letter_004,307.468,0.321,0.6638,0.7517,0.7051,0.3,,**[En-tête de l'Entreprise]** **[Nom de la Société Subsidiaire SSPP / Sonatrach]** [Adresse complète] [Téléphone | Email
+letter,gemma4:e4b-it-q4_K_M,letter_005,243.724,0.3379,0.6899,0.7789,0.7317,0.4,,"**[En-tête de l'Entreprise]** **SSPP / Sonatrach** [Département/Direction] [Adresse de l'entreprise]  **[Lieu], le [Date"
+letter,mistral,letter_001,229.174,0.2581,0.6329,0.6945,0.6623,0.8,, Sujet : Demande de rapport mensuel sur la consommation d'énergie des installations de la subsidiaire GPG  [En-tête]  So
+letter,mistral,letter_002,156.653,0.2096,0.6636,0.6694,0.6665,0.1,," Bonjour Monsieur,  En réponse à votre facture numéro 2026-0458, je vous informe que nous avons constaté l'absence d'un "
+letter,mistral,letter_003,132.214,0.2896,0.7232,0.7532,0.7379,0.4,, Titre : Lettre de convocation pour l'entretien d'évaluation annuelle  ---  Date : 1er juin 2026  Objet : Entretien d'év
+letter,mistral,letter_004,166.399,0.1869,0.6847,0.7423,0.7123,0.3,, Sujet : Réception de la réclamation n° [numéro de référence] concernant un retard de livraison  Madame / Monsieur [Nom 
+letter,mistral,letter_005,125.652,0.2574,0.7238,0.7651,0.7439,0.2,," Sujet : Demande de congé annuel du 15 au 19 juillet 2026  Monsieur le Directeur,  Je vous prie d'agréer l'expression de"
+letter,phi4-mini,letter_001,67.201,0.2346,0.6945,0.7523,0.7222,0.3,,[Logo du SSPP]  Date: [insérer la date actuelle]  Objet : Demande de Rapport Mensuel sur Consommation d'Énergie  Monsieu
+letter,phi4-mini,letter_002,74.428,0.2687,0.6732,0.7257,0.6985,0.3,,[Votre Nom Complet] [Titre Professionnel ou Fonction] Sonatrach Adresse du Bureau Principal  Date: [Insérez la Date Actu
+letter,phi4-mini,letter_003,83.051,0.275,0.6567,0.7555,0.7026,0.0,,[Votre Nom Complet] [Titre Professionnel] [Société Pétrolière Algérienne (Subsidiaire SSPP / Sonatrach)] [Adresse de l'E
+letter,phi4-mini,letter_004,54.4,0.2581,0.704,0.7566,0.7293,0.1,,[Nom du Client] [Adresse du Client]  Date: [date actuelle]  Objet : Réponse à votre réclamation n° [numéro de la réclama
+letter,phi4-mini,letter_005,84.084,0.1934,0.6424,0.7403,0.6879,0.2,,[Votre Nom Complet] [Titre Professionnel ou Poste] [Nom de l'Entreprise Pétrolière Algérienne (subsidiaire SSPP / Sonatr
+letter,qwen3.5:4b,letter_001,157.52,0.3976,0.6651,0.765,0.7116,0.6,,**SONATRACH SOCIÉTÉ SPÉCIALE DE PÉTROLE (SSPP)** [Adresse complète de l'entreprise] [Code postal] [Ville]  À l'attention
+letter,qwen3.5:4b,letter_002,215.69,0.3144,0.6567,0.7377,0.6948,0.5,,**SONATRACH** **Société des Services Pétroliers et Pétrochimiques (SSPP)** [Adresse de l'entreprise] [Code Postal – Vill
+letter,qwen3.5:4b,letter_003,173.033,0.2516,0.6309,0.7392,0.6808,0.4,,**[LOGO DE L'ENTREPRISE]** **[NOM DE L'ENTREPRISE]** **[Adresse complète]** **[Code postal – Ville]** **[Téléphone] – [E
+letter,qwen3.5:4b,letter_004,251.958,0.2846,0.655,0.7278,0.6895,0.6,,**Direction Générale** **Société Nationale des Pétroles et des Produits Pétroliers (SSPP)** *(Nom de la filiale concerné
+letter,qwen3.5:4b,letter_005,165.75,0.3569,0.7019,0.8068,0.7507,0.3,,[En-tête de l'entreprise] [Logo SSPP/Sonatrach] [Adresse complète] [Code postal – Ville] [Numéro de téléphone] [Adresse 

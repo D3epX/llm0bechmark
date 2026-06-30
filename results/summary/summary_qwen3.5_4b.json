@@ -1,0 +1,89 @@
+{
+  "task": "summary",
+  "model": "qwen3.5:4b",
+  "ollama_tag": "qwen3.5:4b",
+  "timestamp": "2026-06-30 02:40:18",
+  "num_examples": 5,
+  "examples": [
+    {
+      "id": "summary_001",
+      "ground_truth": "Lors de la réunion du comité de direction du 10 juin 2026, quatre points ont été abordés. Le bilan semestriel montre une croissance de 6% du chiffre d'affaires. Le budget de 2,5 millions de dinars pour la modernisation IT a été validé, avec démarrage en septembre. Sur 12 postes d'ingénieurs à pourvoir, 8 sont déjà comblés. De nouvelles procédures HSE conformes aux directives Sonatrach ont été approuvées, avec formation obligatoire en août 2026.",
+      "generated": "Le comité de direction du 10 juin 2026 a validé un bilan positif (croissance de 6 % du CA), le budget de 2,5 millions de dinars pour la modernisation IT (démarrage en septembre 2026), la finalisation du recrutement de 4 ingénieurs avant juillet et l'adoption de nouvelles normes HSE avec une formation obligatoire en août.",
+      "time_seconds": 89.158,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All figures and dates accurately traceable to source text. The model correctly infers '4 remaining engineers' from the source's '8 out of 12 filled'. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.5455,
+        "bertscore_precision": 0.8428,
+        "bertscore_recall": 0.796,
+        "bertscore_f1": 0.8187
+      }
+    },
+    {
+      "id": "summary_002",
+      "ground_truth": "Une fuite mineure de gaz a été détectée le 18 mai 2026 à 14h30 au niveau de la vanne V-204. La procédure d'urgence a été déclenchée sans faire de blessé. La cause identifiée est l'usure d'un joint d'étanchéité, remplacé le jour même. Le système a été remis en service à 18h00 après vérification, et un rapport détaillé sera transmis à la direction HSE sous 48 heures.",
+      "generated": "Le 18 mai 2026, une fuite de gaz mineure survenue à 14h30 sur la vanne V-204 au site de production a été contenue sans blessé. L'équipe technique a fermé la vanne et remplacé le joint d'étanchéité usé, permettant la remise en service à 18h00. Un rapport détaillé sera transmis à la direction HSE sous 48 heures.",
+      "time_seconds": 77.107,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. Concise and faithful summary with no invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.4783,
+        "bertscore_precision": 0.8696,
+        "bertscore_recall": 0.8312,
+        "bertscore_f1": 0.8499
+      }
+    },
+    {
+      "id": "summary_003",
+      "ground_truth": "Le service logistique sera réorganisé à partir du 1er août 2026 en trois pôles : approvisionnement (M. Benali), stockage (Mme Cherif), et distribution (M. Khelifi), chacun avec son propre budget. L'objectif est de réduire les délais de traitement des commandes de 30%. Une réunion d'information est prévue le 15 juillet 2026.",
+      "generated": "À compter du 1er août 2026, le service logistique se réorganise en trois pôles (approvisionnement, stockage, distribution) dirigés respectivement par M. Benali, Mme Cherif et M. Khelifi. Chaque pôle gérera son propre budget et rapportera directement au Directeur Logistique, avec pour objectif de réduire de 30% les délais de traitement des commandes internes et d'améliorer la traçabilité. Une réunion d'information pour l'ensemble du personnel est prévue le 15 juillet 2026.",
+      "time_seconds": 81.801,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All names, dates, and figures correctly traceable to source. The additions 'rapportera directement au Directeur Logistique' and 'améliorer la traçabilité' are both present in the original source text. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.6056,
+        "bertscore_precision": 0.818,
+        "bertscore_recall": 0.8569,
+        "bertscore_f1": 0.837
+      }
+    },
+    {
+      "id": "summary_004",
+      "ground_truth": "L'audit externe ISO du 2 au 4 juin 2026 a relevé deux non-conformités mineures concernant la traçabilité des déchets dangereux et le registre des risques, sans non-conformité majeure. Le cabinet recommande une mise à jour du registre avant fin juillet et une formation du personnel. La certification ISO 9001/14001/45001 a été reconduite pour trois ans.",
+      "generated": "Le cabinet certifié ISO a effectué un audit QSE du 2 au 4 juin 2026. Deux non-conformités mineures ont été relevées (documentation des déchets dangereux et registre des risques obsolète), mais aucune majeure n'a été constatée. La certification ISO 9001/14001/45001 est reconduite pour trois ans. Le cabinet recommande la mise à jour du registre avant fin juillet 2026 et la formation du personnel sur la traçabilité des déchets.",
+      "time_seconds": 80.923,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. No invented facts. Unlike Phi4-mini which hallucinated a specific expiry date (June 2029), Qwen correctly states 'reconduite pour trois ans' without fabricating a calendar date.",
+      "metrics": {
+        "rougeL_f1": 0.5143,
+        "bertscore_precision": 0.8494,
+        "bertscore_recall": 0.8839,
+        "bertscore_f1": 0.8663
+      }
+    },
+    {
+      "id": "summary_005",
+      "ground_truth": "En 2025, 245 employés (78% de l'effectif) ont suivi au moins une formation, principalement en sécurité industrielle, compétences techniques et management. Le budget formation a atteint 18 millions de dinars, en hausse de 12%. Pour 2026, la direction prévoit d'élargir l'offre aux compétences numériques via un partenariat en intelligence artificielle.",
+      "generated": "En 2025, 245 employés (78 % de l'effectif) ont suivi des formations, couvrant principalement la sécurité industrielle (89 participants), les compétences techniques (67 participants) et le management (45 participants). Le budget, fixé à 18 millions de dinars (+12 % par rapport à 2024), devrait en 2026 s'étendre aux compétences numériques via un partenariat avec un expert en intelligence artificielle industrielle.",
+      "time_seconds": 74.651,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All figures correctly traceable to source text. The participant counts (89, 67, 45) are present in the original source document. Unlike Mistral which hallucinated a total workforce of '316 employés', Qwen avoids fabricating unstated figures. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.6557,
+        "bertscore_precision": 0.8407,
+        "bertscore_recall": 0.8682,
+        "bertscore_f1": 0.8542
+      }
+    }
+  ]
+}

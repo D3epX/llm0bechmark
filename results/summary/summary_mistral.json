@@ -1,0 +1,91 @@
+{
+  "task": "summary",
+  "model": "mistral",
+  "ollama_tag": "mistral",
+  "timestamp": "2026-06-29 17:18:33",
+  "num_examples": 5,
+  "examples": [
+    {
+      "id": "summary_001",
+      "ground_truth": "Lors de la réunion du comité de direction du 10 juin 2026, quatre points ont été abordés. Le bilan semestriel montre une croissance de 6% du chiffre d'affaires. Le budget de 2,5 millions de dinars pour la modernisation IT a été validé, avec démarrage en septembre. Sur 12 postes d'ingénieurs à pourvoir, 8 sont déjà comblés. De nouvelles procédures HSE conformes aux directives Sonatrach ont été approuvées, avec formation obligatoire en août 2026.",
+      "generated": " Résumé :\n\nLe 10 juin 2026, se tient une réunion du comité de direction avec la présence du Directeur Général, le Directeur Financier, le Directeur des Ressources Humaines et le Directeur Technique. Le bilan du premier semestre 2026 est positif avec une croissance de 6% du chiffre d'affaires par rapport au semestre précédent. Le budget pour la modernisation IT de 2,5 millions de dinars a été validé à l'unanimité avec un démarrage prévu en septembre 2026. En ce qui concerne le recrutement de 12 nouveaux ingénieurs, 8 postes ont déjà été pourvus et les 4 restants doivent être finalisés avant fin juillet. Les nouvelles procédures HSE conformes aux dernières directives du groupe Sonatrach ont été approuvées avec une formation obligatoire de tout le personnel prévue en août 2026.",
+      "time_seconds": 170.935,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All names, figures, and dates accurately traceable to source. This is essentially a near-complete restatement rather than a true compression, but contains no invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.513,
+        "bertscore_precision": 0.8051,
+        "bertscore_recall": 0.8727,
+        "bertscore_f1": 0.8376
+      }
+    },
+    {
+      "id": "summary_002",
+      "ground_truth": "Une fuite mineure de gaz a été détectée le 18 mai 2026 à 14h30 au niveau de la vanne V-204. La procédure d'urgence a été déclenchée sans faire de blessé. La cause identifiée est l'usure d'un joint d'étanchéité, remplacé le jour même. Le système a été remis en service à 18h00 après vérification, et un rapport détaillé sera transmis à la direction HSE sous 48 heures.",
+      "generated": " Le 18 mai 2026, un incident de sécurité mineur a eu lieu sur le site de production. À 14h30, une fuite de gaz a été détectée par le système automatique de surveillance au niveau de la vanne V-204. Une évacuation immédiate de la zone concernée a été effectuée, la vanne a été fermée par l'équipe technique et une inspection complète du circuit a été réalisée. Aucun blessé n'a été enregistré. Les preuves préliminaires indiquent que la fuite est due à l'usure d'un joint d'étanchéité, qui a été remplacé le même jour. Le système a été remis en service après vérification complète à 18h00. Un rapport détaillé sera transmis à la direction HSE dans les 48 heures conformément à la procédure interne.",
+      "time_seconds": 126.837,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. Again closer to a restatement than a compressed summary, but factually faithful.",
+      "metrics": {
+        "rougeL_f1": 0.5291,
+        "bertscore_precision": 0.8212,
+        "bertscore_recall": 0.8754,
+        "bertscore_f1": 0.8474
+      }
+    },
+    {
+      "id": "summary_003",
+      "ground_truth": "Le service logistique sera réorganisé à partir du 1er août 2026 en trois pôles : approvisionnement (M. Benali), stockage (Mme Cherif), et distribution (M. Khelifi), chacun avec son propre budget. L'objectif est de réduire les délais de traitement des commandes de 30%. Une réunion d'information est prévue le 15 juillet 2026.",
+      "generated": " Note de service sur la réorganisation du service logistique, effective au 1er août 2026. La nouvelle structure comprend trois pôles distincts : le pôle approvisionnement dirigé par M. Benali, le pôle stockage dirigé par Mme Cherif et le pôle distribution dirigé par M. Khelifi. Chaque pôle dispose d'un budget propre et rend compte directement au Directeur Logistique. L'objectif de cette réorganisation est d'améliorer la traçabilité des flux et de réduire les délais de traitement des commandes internes de 30%. Une réunion d'information est prévue le 15 juillet 2026 pour présenter en détail les nouvelles procédures à l'ensemble du personnel concerné.",
+      "time_seconds": 108.125,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All names, dates, and figures correctly traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.5393,
+        "bertscore_precision": 0.8127,
+        "bertscore_recall": 0.8807,
+        "bertscore_f1": 0.8453
+      }
+    },
+    {
+      "id": "summary_004",
+      "ground_truth": "L'audit externe ISO du 2 au 4 juin 2026 a relevé deux non-conformités mineures concernant la traçabilité des déchets dangereux et le registre des risques, sans non-conformité majeure. Le cabinet recommande une mise à jour du registre avant fin juillet et une formation du personnel. La certification ISO 9001/14001/45001 a été reconduite pour trois ans.",
+      "generated": " Rapport d'audit externe effectué du 2 au 4 juin 2026 par un cabinet certifié ISO sur les systèmes de management qualité, environnement et sécurité (QSE). Deux non-conformités mineures identifiées : documentation incomplète concernant la traçabilité des déchets dangereux et absence récente de mise à jour du registre des risques. Aucune non-conformité majeure. Recommandations : mise à jour du registre des risques avant fin juillet 2026 et formation du personnel concerné sur la nouvelle procédure de traçabilité des déchets. La certification ISO 9001/14001/45001 a été reconduite pour une période de trois ans.",
+      "time_seconds": 111.438,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "All details accurately traceable to source. No invented facts.",
+      "metrics": {
+        "rougeL_f1": 0.6265,
+        "bertscore_precision": 0.8058,
+        "bertscore_recall": 0.8779,
+        "bertscore_f1": 0.8403
+      }
+    },
+    {
+      "id": "summary_005",
+      "ground_truth": "En 2025, 245 employés (78% de l'effectif) ont suivi au moins une formation, principalement en sécurité industrielle, compétences techniques et management. Le budget formation a atteint 18 millions de dinars, en hausse de 12%. Pour 2026, la direction prévoit d'élargir l'offre aux compétences numériques via un partenariat en intelligence artificielle.",
+      "generated": " Résumé : Bilan annuel des formations professionnelles 2025. Sur un total de 316 employés, 245 ont suivi au moins une formation (78%). Les domaines les plus demandés sont la sécurité industrielle (89 participants), compétences techniques spécialisées (67 participants) et le management (45 participants). Le budget s'est élevé à 18 millions de dinars, une hausse de 12% par rapport à 2024. Pour l'année 2026, la direction prévoit d'élargir l'offre de formation aux compétences numériques en collaborant avec un organisme spécialisé en intelligence artificielle appliquée à l'industrie.",
+      "time_seconds": 106.267,
+      "error": null,
+      "hallucination_score": 0.5,
+      "hallucinated_facts": [
+        "Invents a total workforce figure of '316 employés' — this exact number appears nowhere in the source text or ground truth; the source only states 245 employees represent 78% of the total effectif, the total itself was never given"
+      ],
+      "hallucination_explanation": "Significant hallucination: the model computes and states a specific total headcount (316) that was never provided in the source. While 245/0.78≈314 is mathematically close, presenting a fabricated precise figure as if it were stated fact (rather than a derived estimate) is a clear case of inventing data not present in the source document — exactly the kind of confident fabrication that is dangerous in administrative reporting.",
+      "metrics": {
+        "rougeL_f1": 0.5696,
+        "bertscore_precision": 0.8175,
+        "bertscore_recall": 0.8839,
+        "bertscore_f1": 0.8494
+      }
+    }
+  ]
+}

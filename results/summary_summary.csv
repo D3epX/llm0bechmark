@@ -1,0 +1,26 @@
+task,model,example_id,time_seconds,rougeL_f1,bertscore_precision,bertscore_recall,bertscore_f1,hallucination_score,error,generated_preview
+summary,gemma4:e2b,summary_001,91.431,0.5989,0.847,0.887,0.8665,0.0,,Voici le résumé du procès-verbal :  Le comité de direction s'est réuni le 10 juin 2026. Le Directeur Financier a rapport
+summary,gemma4:e2b,summary_002,112.548,0.6776,0.8662,0.9047,0.885,0.0,,Un incident de sécurité concernant une fuite mineure de gaz a été détecté le 18 mai 2026 à 14h30 sur la vanne V-204 du s
+summary,gemma4:e2b,summary_003,75.586,0.6429,0.8706,0.9156,0.8925,0.0,,Une réorganisation du service logistique entrera en vigueur le 1er août 2026. La nouvelle structure comprend trois pôles
+summary,gemma4:e2b,summary_004,100.248,0.6536,0.8329,0.904,0.867,0.0,,"L'audit externe QSE (Qualité, Environnement, Sécurité) a eu lieu du 2 au 4 juin 2026. Deux non-conformités mineures ont "
+summary,gemma4:e2b,summary_005,89.081,0.6301,0.79,0.8561,0.8217,0.0,,Voici le résumé :  Le bilan de la formation professionnelle 2025 montre que 245 employés (78% de l'effectif) ont suivi u
+summary,gemma4:e4b-it-q4_K_M,summary_001,235.821,0.4498,0.742,0.8417,0.7887,0.0,,"**Objet : Résumé du Procès-verbal du Comité de Direction du 10 juin 2026**  Le comité de direction, réunissant les Direc"
+summary,gemma4:e4b-it-q4_K_M,summary_002,200.8,0.6351,0.8285,0.8969,0.8614,0.0,,"**Objet : Résumé de l'incident de sécurité du 18 mai 2026**  Le 18 mai 2026, une fuite mineure de gaz a été détectée à 1"
+summary,gemma4:e4b-it-q4_K_M,summary_003,178.936,0.494,0.7658,0.863,0.8115,0.0,,Une réorganisation du service logistique prendra effet le **1er août 2026**. La nouvelle structure sera composée de troi
+summary,gemma4:e4b-it-q4_K_M,summary_004,186.168,0.6939,0.8603,0.9125,0.8856,0.0,,Un audit externe sur les systèmes QSE a eu lieu du 2 au 4 juin 2026. Bien qu'aucune non-conformité majeure n'ait été rel
+summary,gemma4:e4b-it-q4_K_M,summary_005,179.456,0.5205,0.7861,0.8601,0.8215,0.0,,"Voici un résumé concis et fidèle du bilan :  Pour 2025, 245 employés (78% de l'effectif) ont bénéficié de formations, av"
+summary,mistral,summary_001,170.935,0.513,0.8051,0.8727,0.8376,0.0,," Résumé :  Le 10 juin 2026, se tient une réunion du comité de direction avec la présence du Directeur Général, le Direct"
+summary,mistral,summary_002,126.837,0.5291,0.8212,0.8754,0.8474,0.0,," Le 18 mai 2026, un incident de sécurité mineur a eu lieu sur le site de production. À 14h30, une fuite de gaz a été dét"
+summary,mistral,summary_003,108.125,0.5393,0.8127,0.8807,0.8453,0.0,," Note de service sur la réorganisation du service logistique, effective au 1er août 2026. La nouvelle structure comprend"
+summary,mistral,summary_004,111.438,0.6265,0.8058,0.8779,0.8403,0.0,, Rapport d'audit externe effectué du 2 au 4 juin 2026 par un cabinet certifié ISO sur les systèmes de management qualité
+summary,mistral,summary_005,106.267,0.5696,0.8175,0.8839,0.8494,0.5,," Résumé : Bilan annuel des formations professionnelles 2025. Sur un total de 316 employés, 245 ont suivi au moins une fo"
+summary,phi4-mini,summary_001,48.184,0.4667,0.8145,0.8025,0.8085,0.0,,Le Comité de Direction s'est réuni le 10 juin 2026 pour discuter des points suivants : bilan positif du premier semestre
+summary,phi4-mini,summary_002,32.488,0.3881,0.7975,0.7599,0.7783,0.0,,"Rapport de sécurité du 18 mai : fuite minime détectée au niveau V-204, évacuation et fermeture immédiate par l'équipe te"
+summary,phi4-mini,summary_003,35.388,0.6,0.8718,0.9059,0.8885,0.0,,"La restructuration logistique, effective dès le 1er août 2026, établira trois pôles : approvisionnement (Monsieur Benali"
+summary,phi4-mini,summary_004,39.081,0.4342,0.7796,0.8192,0.7989,0.5,,"Un audit externe réalisé par un cabinet certifié ISO entre le 2 et le 4 juin 2026 s'est concentré sur les systèmes QSE, "
+summary,phi4-mini,summary_005,29.75,0.4,0.7883,0.7961,0.7922,0.0,,Le bilan annuel des actions de formation professionnelle pour 2025 montre que sur les 245 employés formés (78% du total)
+summary,qwen3.5:4b,summary_001,89.158,0.5455,0.8428,0.796,0.8187,0.0,,"Le comité de direction du 10 juin 2026 a validé un bilan positif (croissance de 6 % du CA), le budget de 2,5 millions de"
+summary,qwen3.5:4b,summary_002,77.107,0.4783,0.8696,0.8312,0.8499,0.0,,"Le 18 mai 2026, une fuite de gaz mineure survenue à 14h30 sur la vanne V-204 au site de production a été contenue sans b"
+summary,qwen3.5:4b,summary_003,81.801,0.6056,0.818,0.8569,0.837,0.0,,"À compter du 1er août 2026, le service logistique se réorganise en trois pôles (approvisionnement, stockage, distributio"
+summary,qwen3.5:4b,summary_004,80.923,0.5143,0.8494,0.8839,0.8663,0.0,,Le cabinet certifié ISO a effectué un audit QSE du 2 au 4 juin 2026. Deux non-conformités mineures ont été relevées (doc
+summary,qwen3.5:4b,summary_005,74.651,0.6557,0.8407,0.8682,0.8542,0.0,,"En 2025, 245 employés (78 % de l'effectif) ont suivi des formations, couvrant principalement la sécurité industrielle (8"

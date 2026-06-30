@@ -1,0 +1,179 @@
+{
+  "task": "qna",
+  "model": "gemma4:e2b",
+  "ollama_tag": "gemma4:e2b",
+  "timestamp": "2026-06-29 07:34:38",
+  "num_examples": 10,
+  "examples": [
+    {
+      "id": "qna_001",
+      "query": "Combien de jours de congé annuel les employés auront-ils à partir de 2027 ?",
+      "ground_truth": "À partir de 2027, les employés de SSPP bénéficieront de 30 jours de congé payé par an.",
+      "generated": "Les employés bénéficieront de 30 jours de congé payé par an à partir de 2027.",
+      "time_seconds": 80.552,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Faithful restatement of ground truth.",
+      "metrics": {
+        "rougeL_f1": 0.7778,
+        "bertscore_precision": 0.9519,
+        "bertscore_recall": 0.9082,
+        "bertscore_f1": 0.9295
+      }
+    },
+    {
+      "id": "qna_002",
+      "query": "Combien de jours à l'avance faut-il soumettre une demande de congé ?",
+      "ground_truth": "Les demandes de congé doivent être soumises au moins 15 jours à l'avance via le portail RH interne.",
+      "generated": "Il faut soumettre une demande de congé au moins 15 jours à l'avance.",
+      "time_seconds": 47.649,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Correct core fact, faithful to source.",
+      "metrics": {
+        "rougeL_f1": 0.5806,
+        "bertscore_precision": 0.8948,
+        "bertscore_recall": 0.8326,
+        "bertscore_f1": 0.8626
+      }
+    },
+    {
+      "id": "qna_003",
+      "query": "Combien d'extincteurs étaient non conformes lors de l'inspection ?",
+      "ground_truth": "3 extincteurs sur 45 ont été jugés non conformes et ont été remplacés immédiatement.",
+      "generated": "3 extincteurs étaient jugés non conformes lors de l'inspection.",
+      "time_seconds": 48.566,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Correct number, faithful to source.",
+      "metrics": {
+        "rougeL_f1": 0.4286,
+        "bertscore_precision": 0.8573,
+        "bertscore_recall": 0.8425,
+        "bertscore_f1": 0.8498
+      }
+    },
+    {
+      "id": "qna_004",
+      "query": "Quand est prévue la prochaine inspection ?",
+      "ground_truth": "La prochaine inspection est prévue pour mai 2027.",
+      "generated": "La prochaine inspection est prévue pour mai 2027.",
+      "time_seconds": 33.318,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Exact match with ground truth.",
+      "metrics": {
+        "rougeL_f1": 1.0,
+        "bertscore_precision": 1.0,
+        "bertscore_recall": 1.0,
+        "bertscore_f1": 1.0
+      }
+    },
+    {
+      "id": "qna_005",
+      "query": "Quel est le montant du budget alloué pour la modernisation du système informatique ?",
+      "ground_truth": "Un budget supplémentaire de 2,5 millions de dinars algériens a été alloué.",
+      "generated": "Le budget alloué est de 2,5 millions de dinars algériens.",
+      "time_seconds": 38.375,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Correct figure, faithful to source.",
+      "metrics": {
+        "rougeL_f1": 0.6667,
+        "bertscore_precision": 0.9184,
+        "bertscore_recall": 0.8664,
+        "bertscore_f1": 0.8916
+      }
+    },
+    {
+      "id": "qna_006",
+      "query": "Qui va mener le projet de modernisation ?",
+      "ground_truth": "Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres.",
+      "generated": "Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres.",
+      "time_seconds": 38.777,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Exact match with ground truth.",
+      "metrics": {
+        "rougeL_f1": 1.0,
+        "bertscore_precision": 1.0,
+        "bertscore_recall": 1.0,
+        "bertscore_f1": 1.0
+      }
+    },
+    {
+      "id": "qna_007",
+      "query": "Quelle est la date limite pour le contrôle technique des véhicules ?",
+      "ground_truth": "La date limite est le 30 septembre 2026.",
+      "generated": "La date limite pour le contrôle technique des véhicules est le 30 septembre 2026.",
+      "time_seconds": 38.652,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Correct date, faithful to source.",
+      "metrics": {
+        "rougeL_f1": 0.6667,
+        "bertscore_precision": 0.8697,
+        "bertscore_recall": 0.9613,
+        "bertscore_f1": 0.9132
+      }
+    },
+    {
+      "id": "qna_008",
+      "query": "Que se passe-t-il si un véhicule n'est pas contrôlé à temps ?",
+      "ground_truth": "Tout véhicule non contrôlé après le 30 septembre 2026 sera immobilisé jusqu'à régularisation.",
+      "generated": "Tout véhicule non contrôlé après cette date sera immobilisé jusqu'à régularisation.",
+      "time_seconds": 40.925,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Faithful, 'cette date' correctly refers to 30 septembre 2026 from context.",
+      "metrics": {
+        "rougeL_f1": 0.8125,
+        "bertscore_precision": 0.9553,
+        "bertscore_recall": 0.9141,
+        "bertscore_f1": 0.9342
+      }
+    },
+    {
+      "id": "qna_009",
+      "query": "Quelle est la production totale au premier trimestre 2026 ?",
+      "ground_truth": "La production totale est de 1,2 million de barils, soit une augmentation de 8% par rapport au trimestre précédent.",
+      "generated": "La production totale au premier trimestre 2026 est de 1,2 million de barils.",
+      "time_seconds": 39.576,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Correct figure, faithful to source.",
+      "metrics": {
+        "rougeL_f1": 0.5556,
+        "bertscore_precision": 0.8782,
+        "bertscore_recall": 0.8125,
+        "bertscore_f1": 0.844
+      }
+    },
+    {
+      "id": "qna_010",
+      "query": "À quoi est attribuée l'augmentation de production ?",
+      "ground_truth": "L'augmentation est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.",
+      "generated": "L'augmentation de production est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.",
+      "time_seconds": 40.162,
+      "error": null,
+      "hallucination_score": 0.0,
+      "hallucinated_facts": [],
+      "hallucination_explanation": "Exact match with ground truth.",
+      "metrics": {
+        "rougeL_f1": 0.95,
+        "bertscore_precision": 0.973,
+        "bertscore_recall": 0.9907,
+        "bertscore_f1": 0.9818
+      }
+    }
+  ]
+}

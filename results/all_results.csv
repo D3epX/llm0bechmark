@@ -1,0 +1,101 @@
+task,model,example_id,time_seconds,rougeL_f1,bertscore_precision,bertscore_recall,bertscore_f1,hallucination_score,error,generated_preview
+qna,gemma4:e2b,qna_001,80.552,0.7778,0.9519,0.9082,0.9295,0.0,,Les employés bénéficieront de 30 jours de congé payé par an à partir de 2027.
+qna,gemma4:e2b,qna_002,47.649,0.5806,0.8948,0.8326,0.8626,0.0,,Il faut soumettre une demande de congé au moins 15 jours à l'avance.
+qna,gemma4:e2b,qna_003,48.566,0.4286,0.8573,0.8425,0.8498,0.0,,3 extincteurs étaient jugés non conformes lors de l'inspection.
+qna,gemma4:e2b,qna_004,33.318,1.0,1.0,1.0,1.0,0.0,,La prochaine inspection est prévue pour mai 2027.
+qna,gemma4:e2b,qna_005,38.375,0.6667,0.9184,0.8664,0.8916,0.0,,"Le budget alloué est de 2,5 millions de dinars algériens."
+qna,gemma4:e2b,qna_006,38.777,1.0,1.0,1.0,1.0,0.0,,Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres.
+qna,gemma4:e2b,qna_007,38.652,0.6667,0.8697,0.9613,0.9132,0.0,,La date limite pour le contrôle technique des véhicules est le 30 septembre 2026.
+qna,gemma4:e2b,qna_008,40.925,0.8125,0.9553,0.9141,0.9342,0.0,,Tout véhicule non contrôlé après cette date sera immobilisé jusqu'à régularisation.
+qna,gemma4:e2b,qna_009,39.576,0.5556,0.8782,0.8125,0.844,0.0,,"La production totale au premier trimestre 2026 est de 1,2 million de barils."
+qna,gemma4:e2b,qna_010,40.162,0.95,0.973,0.9907,0.9818,0.0,,L'augmentation de production est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.
+qna,gemma4:e4b-it-q4_K_M,qna_001,91.063,0.6875,0.9277,0.8322,0.8774,0.0,,Chaque employé bénéficiera de 30 jours de congé payé par an.
+qna,gemma4:e4b-it-q4_K_M,qna_002,8.387,0.6452,0.9082,0.8478,0.877,0.0,,Il faut soumettre les demandes de congé au moins 15 jours à l'avance.
+qna,gemma4:e4b-it-q4_K_M,qna_003,18.681,0.2308,0.8203,0.796,0.808,0.0,,Trois extincteurs étaient non conformes lors de l'inspection.
+qna,gemma4:e4b-it-q4_K_M,qna_004,5.383,1.0,1.0,1.0,1.0,0.0,,La prochaine inspection est prévue pour mai 2027.
+qna,gemma4:e4b-it-q4_K_M,qna_005,19.993,0.6667,0.9184,0.8664,0.8916,0.0,,"Le budget alloué est de 2,5 millions de dinars algériens."
+qna,gemma4:e4b-it-q4_K_M,qna_006,8.367,1.0,1.0,1.0,1.0,0.0,,Le projet sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel d'offres.
+qna,gemma4:e4b-it-q4_K_M,qna_007,81.7,0.6667,0.8697,0.9613,0.9132,0.0,,La date limite pour le contrôle technique des véhicules est le 30 septembre 2026.
+qna,gemma4:e4b-it-q4_K_M,qna_008,80.793,1.0,1.0,1.0,1.0,0.0,,Tout véhicule non contrôlé après le 30 septembre 2026 sera immobilisé jusqu'à régularisation.
+qna,gemma4:e4b-it-q4_K_M,qna_009,17.894,0.5556,0.8782,0.8125,0.844,0.0,,"La production totale au premier trimestre 2026 est de 1,2 million de barils."
+qna,gemma4:e4b-it-q4_K_M,qna_010,9.161,0.95,0.973,0.9907,0.9818,0.0,,L'augmentation de production est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.
+qna,mistral,qna_001,64.781,0.6061,0.9281,0.857,0.8911,0.0,, Les employés auront 30 jours de congé payé par an à partir de 2027.
+qna,mistral,qna_002,13.019,0.5806,0.8948,0.8326,0.8626,0.0,, Il faut soumettre une demande de congé au moins 15 jours à l'avance.
+qna,mistral,qna_003,35.297,0.2857,0.7843,0.7651,0.7746,0.0,, Il y avait 3 extincteurs non conformes lors de l'inspection.
+qna,mistral,qna_004,8.506,1.0,1.0,1.0,1.0,0.0,, La prochaine inspection est prévue pour mai 2027.
+qna,mistral,qna_005,41.695,0.5,0.8293,0.8433,0.8362,0.0,," Le montant du budget alloué pour la modernisation du système informatique est de 2,5 millions de dinars algériens."
+qna,mistral,qna_006,17.656,0.6122,0.8562,0.91,0.8823,0.0,," L'équipe IT va mener le projet de modernisation du système informatique de gestion des stocks, en collaboration avec un"
+qna,mistral,qna_007,35.458,0.6154,0.835,0.9541,0.8906,0.0,, La date limite pour le contrôle technique des véhicules de service est le 30 septembre 2026.
+qna,mistral,qna_008,20.427,0.45,0.8038,0.8792,0.8398,0.0,," Un véhicule n'ayant pas été contrôlé à temps sera immobilisé jusqu'à régularisation, conformément à la circulaire inter"
+qna,mistral,qna_009,31.903,0.5556,0.8782,0.8125,0.844,0.0,," La production totale au premier trimestre 2026 est de 1,2 million de barils."
+qna,mistral,qna_010,14.448,0.95,0.973,0.9907,0.9818,0.0,, L'augmentation de production est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.
+qna,phi4-mini,qna_001,26.789,0.8,0.966,0.9249,0.945,0.0,,"À partir de 2027, chaque employé bénéficiera de 30 jours de congé payé par an."
+qna,phi4-mini,qna_002,6.437,1.0,1.0,1.0,1.0,0.0,,Les demandes de congé doivent être soumises au moins 15 jours à l'avance via le portail RH interne.
+qna,phi4-mini,qna_003,14.375,0.4828,0.8615,0.8606,0.861,0.0,,Trois extincteurs ont été jugés non conformes lors de l'inspection.
+qna,phi4-mini,qna_004,1.96,0.3636,0.8012,0.6849,0.7385,0.0,,Mai 2027
+qna,phi4-mini,qna_005,16.177,0.5294,0.8358,0.8434,0.8396,0.0,,"Le budget alloué pour la modernisation du système informatique est de 2,5 millions de dinars algériens."
+qna,phi4-mini,qna_006,6.584,0.7317,0.8892,0.9124,0.9007,0.0,,"L'équipe IT, en collaboration avec un prestataire externe sélectionné par appel d'offres, sera responsable du projet de "
+qna,phi4-mini,qna_007,12.907,0.64,0.8557,0.9414,0.8965,0.0,,La date limite pour le contrôle technique des véhicules est avant le 30 septembre 2026.
+qna,phi4-mini,qna_008,12.21,0.3934,0.7595,0.8844,0.8172,0.0,,"Si un véhicule n'est pas contrôlé avant le 30 septembre 2026, il sera immobilisé jusqu'à son contrôle et sa régulation. "
+qna,phi4-mini,qna_009,12.898,0.5556,0.8798,0.811,0.844,0.0,,"La production totale du premier trimestre 2026 est de 1,2 million de barils."
+qna,phi4-mini,qna_010,6.598,0.85,0.9552,0.9756,0.9653,0.0,,L'augmentation de production est attribuée à la mise en service d'une nouvelle unité de distillation en février 2026.
+qna,qwen3.5:4b,qna_001,51.746,0.7027,0.8768,0.9038,0.8901,0.1,,"À partir du 1er janvier 2027, chaque employé bénéficiera de **30 jours** de congé payé par an."
+qna,qwen3.5:4b,qna_002,32.706,0.5806,0.8965,0.8358,0.8651,0.0,,Il faut soumettre la demande de congé au moins 15 jours à l'avance.
+qna,qwen3.5:4b,qna_003,27.201,0.3077,0.8322,0.8067,0.8192,0.0,,3 extincteurs étaient non conformes lors de l'inspection.
+qna,qwen3.5:4b,qna_004,26.05,1.0,1.0,1.0,1.0,0.0,,La prochaine inspection est prévue pour mai 2027.
+qna,qwen3.5:4b,qna_005,35.576,0.45,0.7632,0.8326,0.7964,0.0,,"Le montant du budget alloué pour la modernisation du système informatique de gestion des stocks est de **2,5 millions de"
+qna,qwen3.5:4b,qna_006,33.282,0.9524,0.9545,0.9814,0.9677,0.0,,Le projet de modernisation sera mené par l'équipe IT en collaboration avec un prestataire externe sélectionné par appel 
+qna,qwen3.5:4b,qna_007,28.334,0.6667,0.7961,0.9211,0.8541,0.0,,La date limite pour le contrôle technique des véhicules est le **30 septembre 2026**.
+qna,qwen3.5:4b,qna_008,32.703,0.7027,0.9006,0.9446,0.922,0.0,,"Si un véhicule n'est pas contrôlé avant le 30 septembre 2026, il sera immobilisé jusqu'à régularisation."
+qna,qwen3.5:4b,qna_009,28.381,0.5556,0.8782,0.8125,0.844,0.0,,"La production totale au premier trimestre 2026 est de 1,2 million de barils."
+qna,qwen3.5:4b,qna_010,30.686,0.95,0.973,0.9907,0.9818,0.0,,L'augmentation de production est attribuée à la mise en service de la nouvelle unité de distillation en février 2026.
+letter,gemma4:e2b,letter_001,102.102,0.4067,0.7343,0.7853,0.7589,0.0,,"[En-tête de SSPP] [Adresse de SSPP] [Ville, Code Postal] [Téléphone] [Email]  [Lieu], le [Date]  À [Nom de la société GP"
+letter,gemma4:e2b,letter_002,100.52,0.3974,0.723,0.7814,0.7511,0.0,,[Nom de l'Entreprise/Service émetteur] [Adresse de l'Entreprise] [Code Postal et Ville] [Téléphone] [Email]  [Nom du Fou
+letter,gemma4:e2b,letter_003,89.985,0.392,0.7285,0.7866,0.7564,0.0,,"[Nom de l'Entreprise/Direction] [Service émetteur] [Adresse de l'Entreprise]  [Lieu], le [Date du jour]  **Objet : Convo"
+letter,gemma4:e2b,letter_004,118.256,0.3671,0.6727,0.7822,0.7233,0.1,,[Nom de l'entreprise/Service émetteur] [Adresse complète] [Code Postal et Ville] [Téléphone] [Email]  [Nom du Destinatai
+letter,gemma4:e2b,letter_005,86.888,0.3814,0.7128,0.7592,0.7353,0.4,,"[Nom et Prénom de l'employé] [Matricule/Fonction] [Service]  [Lieu], le [Date du jour]  À Monsieur le Chef de Service [N"
+letter,gemma4:e4b-it-q4_K_M,letter_001,303.629,0.303,0.6475,0.7454,0.693,0.2,,"**[En-tête de l'entreprise]**  **SSPP** Subsidiaire SSPP / Sonatrach [Adresse complète de SSPP] [Ville, Code Postal]  **"
+letter,gemma4:e4b-it-q4_K_M,letter_002,315.065,0.3221,0.6729,0.7563,0.7121,0.5,,**[En-tête de l'entreprise]**  **[Nom de la Subsidiaire SSPP / Sonatrach]** [Adresse complète de l'entreprise] [Téléphon
+letter,gemma4:e4b-it-q4_K_M,letter_003,267.192,0.2779,0.662,0.7727,0.7131,0.4,,**[EN-TÊTE DE L'ENTREPRISE]**  **[Nom de la Société Pétrolière Algérienne]** *Subsidiary de SSPP / Sonatrach* [Adresse C
+letter,gemma4:e4b-it-q4_K_M,letter_004,307.468,0.321,0.6638,0.7517,0.7051,0.3,,**[En-tête de l'Entreprise]** **[Nom de la Société Subsidiaire SSPP / Sonatrach]** [Adresse complète] [Téléphone | Email
+letter,gemma4:e4b-it-q4_K_M,letter_005,243.724,0.3379,0.6899,0.7789,0.7317,0.4,,"**[En-tête de l'Entreprise]** **SSPP / Sonatrach** [Département/Direction] [Adresse de l'entreprise]  **[Lieu], le [Date"
+letter,mistral,letter_001,229.174,0.2581,0.6329,0.6945,0.6623,0.8,, Sujet : Demande de rapport mensuel sur la consommation d'énergie des installations de la subsidiaire GPG  [En-tête]  So
+letter,mistral,letter_002,156.653,0.2096,0.6636,0.6694,0.6665,0.1,," Bonjour Monsieur,  En réponse à votre facture numéro 2026-0458, je vous informe que nous avons constaté l'absence d'un "
+letter,mistral,letter_003,132.214,0.2896,0.7232,0.7532,0.7379,0.4,, Titre : Lettre de convocation pour l'entretien d'évaluation annuelle  ---  Date : 1er juin 2026  Objet : Entretien d'év
+letter,mistral,letter_004,166.399,0.1869,0.6847,0.7423,0.7123,0.3,, Sujet : Réception de la réclamation n° [numéro de référence] concernant un retard de livraison  Madame / Monsieur [Nom 
+letter,mistral,letter_005,125.652,0.2574,0.7238,0.7651,0.7439,0.2,," Sujet : Demande de congé annuel du 15 au 19 juillet 2026  Monsieur le Directeur,  Je vous prie d'agréer l'expression de"
+letter,phi4-mini,letter_001,67.201,0.2346,0.6945,0.7523,0.7222,0.3,,[Logo du SSPP]  Date: [insérer la date actuelle]  Objet : Demande de Rapport Mensuel sur Consommation d'Énergie  Monsieu
+letter,phi4-mini,letter_002,74.428,0.2687,0.6732,0.7257,0.6985,0.3,,[Votre Nom Complet] [Titre Professionnel ou Fonction] Sonatrach Adresse du Bureau Principal  Date: [Insérez la Date Actu
+letter,phi4-mini,letter_003,83.051,0.275,0.6567,0.7555,0.7026,0.0,,[Votre Nom Complet] [Titre Professionnel] [Société Pétrolière Algérienne (Subsidiaire SSPP / Sonatrach)] [Adresse de l'E
+letter,phi4-mini,letter_004,54.4,0.2581,0.704,0.7566,0.7293,0.1,,[Nom du Client] [Adresse du Client]  Date: [date actuelle]  Objet : Réponse à votre réclamation n° [numéro de la réclama
+letter,phi4-mini,letter_005,84.084,0.1934,0.6424,0.7403,0.6879,0.2,,[Votre Nom Complet] [Titre Professionnel ou Poste] [Nom de l'Entreprise Pétrolière Algérienne (subsidiaire SSPP / Sonatr
+letter,qwen3.5:4b,letter_001,157.52,0.3976,0.6651,0.765,0.7116,0.6,,**SONATRACH SOCIÉTÉ SPÉCIALE DE PÉTROLE (SSPP)** [Adresse complète de l'entreprise] [Code postal] [Ville]  À l'attention
+letter,qwen3.5:4b,letter_002,215.69,0.3144,0.6567,0.7377,0.6948,0.5,,**SONATRACH** **Société des Services Pétroliers et Pétrochimiques (SSPP)** [Adresse de l'entreprise] [Code Postal – Vill
+letter,qwen3.5:4b,letter_003,173.033,0.2516,0.6309,0.7392,0.6808,0.4,,**[LOGO DE L'ENTREPRISE]** **[NOM DE L'ENTREPRISE]** **[Adresse complète]** **[Code postal – Ville]** **[Téléphone] – [E
+letter,qwen3.5:4b,letter_004,251.958,0.2846,0.655,0.7278,0.6895,0.6,,**Direction Générale** **Société Nationale des Pétroles et des Produits Pétroliers (SSPP)** *(Nom de la filiale concerné
+letter,qwen3.5:4b,letter_005,165.75,0.3569,0.7019,0.8068,0.7507,0.3,,[En-tête de l'entreprise] [Logo SSPP/Sonatrach] [Adresse complète] [Code postal – Ville] [Numéro de téléphone] [Adresse 
+summary,gemma4:e2b,summary_001,91.431,0.5989,0.847,0.887,0.8665,0.0,,Voici le résumé du procès-verbal :  Le comité de direction s'est réuni le 10 juin 2026. Le Directeur Financier a rapport
+summary,gemma4:e2b,summary_002,112.548,0.6776,0.8662,0.9047,0.885,0.0,,Un incident de sécurité concernant une fuite mineure de gaz a été détecté le 18 mai 2026 à 14h30 sur la vanne V-204 du s
+summary,gemma4:e2b,summary_003,75.586,0.6429,0.8706,0.9156,0.8925,0.0,,Une réorganisation du service logistique entrera en vigueur le 1er août 2026. La nouvelle structure comprend trois pôles
+summary,gemma4:e2b,summary_004,100.248,0.6536,0.8329,0.904,0.867,0.0,,"L'audit externe QSE (Qualité, Environnement, Sécurité) a eu lieu du 2 au 4 juin 2026. Deux non-conformités mineures ont "
+summary,gemma4:e2b,summary_005,89.081,0.6301,0.79,0.8561,0.8217,0.0,,Voici le résumé :  Le bilan de la formation professionnelle 2025 montre que 245 employés (78% de l'effectif) ont suivi u
+summary,gemma4:e4b-it-q4_K_M,summary_001,235.821,0.4498,0.742,0.8417,0.7887,0.0,,"**Objet : Résumé du Procès-verbal du Comité de Direction du 10 juin 2026**  Le comité de direction, réunissant les Direc"
+summary,gemma4:e4b-it-q4_K_M,summary_002,200.8,0.6351,0.8285,0.8969,0.8614,0.0,,"**Objet : Résumé de l'incident de sécurité du 18 mai 2026**  Le 18 mai 2026, une fuite mineure de gaz a été détectée à 1"
+summary,gemma4:e4b-it-q4_K_M,summary_003,178.936,0.494,0.7658,0.863,0.8115,0.0,,Une réorganisation du service logistique prendra effet le **1er août 2026**. La nouvelle structure sera composée de troi
+summary,gemma4:e4b-it-q4_K_M,summary_004,186.168,0.6939,0.8603,0.9125,0.8856,0.0,,Un audit externe sur les systèmes QSE a eu lieu du 2 au 4 juin 2026. Bien qu'aucune non-conformité majeure n'ait été rel
+summary,gemma4:e4b-it-q4_K_M,summary_005,179.456,0.5205,0.7861,0.8601,0.8215,0.0,,"Voici un résumé concis et fidèle du bilan :  Pour 2025, 245 employés (78% de l'effectif) ont bénéficié de formations, av"
+summary,mistral,summary_001,170.935,0.513,0.8051,0.8727,0.8376,0.0,," Résumé :  Le 10 juin 2026, se tient une réunion du comité de direction avec la présence du Directeur Général, le Direct"
+summary,mistral,summary_002,126.837,0.5291,0.8212,0.8754,0.8474,0.0,," Le 18 mai 2026, un incident de sécurité mineur a eu lieu sur le site de production. À 14h30, une fuite de gaz a été dét"
+summary,mistral,summary_003,108.125,0.5393,0.8127,0.8807,0.8453,0.0,," Note de service sur la réorganisation du service logistique, effective au 1er août 2026. La nouvelle structure comprend"
+summary,mistral,summary_004,111.438,0.6265,0.8058,0.8779,0.8403,0.0,, Rapport d'audit externe effectué du 2 au 4 juin 2026 par un cabinet certifié ISO sur les systèmes de management qualité
+summary,mistral,summary_005,106.267,0.5696,0.8175,0.8839,0.8494,0.5,," Résumé : Bilan annuel des formations professionnelles 2025. Sur un total de 316 employés, 245 ont suivi au moins une fo"
+summary,phi4-mini,summary_001,48.184,0.4667,0.8145,0.8025,0.8085,0.0,,Le Comité de Direction s'est réuni le 10 juin 2026 pour discuter des points suivants : bilan positif du premier semestre
+summary,phi4-mini,summary_002,32.488,0.3881,0.7975,0.7599,0.7783,0.0,,"Rapport de sécurité du 18 mai : fuite minime détectée au niveau V-204, évacuation et fermeture immédiate par l'équipe te"
+summary,phi4-mini,summary_003,35.388,0.6,0.8718,0.9059,0.8885,0.0,,"La restructuration logistique, effective dès le 1er août 2026, établira trois pôles : approvisionnement (Monsieur Benali"
+summary,phi4-mini,summary_004,39.081,0.4342,0.7796,0.8192,0.7989,0.5,,"Un audit externe réalisé par un cabinet certifié ISO entre le 2 et le 4 juin 2026 s'est concentré sur les systèmes QSE, "
+summary,phi4-mini,summary_005,29.75,0.4,0.7883,0.7961,0.7922,0.0,,Le bilan annuel des actions de formation professionnelle pour 2025 montre que sur les 245 employés formés (78% du total)
+summary,qwen3.5:4b,summary_001,89.158,0.5455,0.8428,0.796,0.8187,0.0,,"Le comité de direction du 10 juin 2026 a validé un bilan positif (croissance de 6 % du CA), le budget de 2,5 millions de"
+summary,qwen3.5:4b,summary_002,77.107,0.4783,0.8696,0.8312,0.8499,0.0,,"Le 18 mai 2026, une fuite de gaz mineure survenue à 14h30 sur la vanne V-204 au site de production a été contenue sans b"
+summary,qwen3.5:4b,summary_003,81.801,0.6056,0.818,0.8569,0.837,0.0,,"À compter du 1er août 2026, le service logistique se réorganise en trois pôles (approvisionnement, stockage, distributio"
+summary,qwen3.5:4b,summary_004,80.923,0.5143,0.8494,0.8839,0.8663,0.0,,Le cabinet certifié ISO a effectué un audit QSE du 2 au 4 juin 2026. Deux non-conformités mineures ont été relevées (doc
+summary,qwen3.5:4b,summary_005,74.651,0.6557,0.8407,0.8682,0.8542,0.0,,"En 2025, 245 employés (78 % de l'effectif) ont suivi des formations, couvrant principalement la sécurité industrielle (8"
